@@ -1,0 +1,41 @@
+[
+  {
+    "instance": "instances/spprclib/A-n54-k7-149.sppcc",
+    "summary": {
+      "p1_s": {
+        "n": 20,
+        "mean_s": 0.7379694494,
+        "median_s": 0.7612743975,
+        "sd_s": 0.060103264451136874,
+        "cv_pct": 8.144410923785983,
+        "min_s": 0.612954132,
+        "max_s": 0.814285276,
+        "solver_mean_s": 0.72914255,
+        "wall_minus_solver_mean_s": 0.008826899400000032
+      },
+      "p1_s_auto": {
+        "n": 20,
+        "mean_s": 0.7522389707,
+        "median_s": 0.756600502,
+        "sd_s": 0.03491869155876465,
+        "cv_pct": 4.641967901007691,
+        "min_s": 0.686572749,
+        "max_s": 0.806518215,
+        "solver_mean_s": 0.7435996,
+        "wall_minus_solver_mean_s": 0.008639370699999982
+      }
+    },
+    "effects": {
+      "auto_under_parallel_standard": {
+        "mean_difference_s": 0.014269521299999994,
+        "bootstrap_95pct_ci_s": [
+          -0.006549206850000005,
+          0.036302501799999984
+        ],
+        "paired_rounds": 20
+      }
+    },
+    "rounds": 20,
+    "factorial_complete": false
+  }
+]

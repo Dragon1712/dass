@@ -1,0 +1,11 @@
+
+=== instances/spprclib/A-n54-k7-149.sppcc ===
+Profile             n      median(s)        mean(s)       CV(%)       solver mean(s)
+p1_s                 20       0.761274       0.737969        8.14         0.729143
+p1_s_auto            20       0.756601       0.752239        4.64         0.743600
+
+Paired effects (positive difference = second named config is SLOWER):
+  auto_under_parallel_standard: +0.014270s, bootstrap CI [-0.006549206850000005, 0.036302501799999984]
+
+Wrote /home/moco/code/dass/e05_auto_fixed/e05_analysis.json
+WARNING: bootstrap CIs describe run-to-run variability on these instances; they DO NOT establish generalization across problem instances.

@@ -1,0 +1,24 @@
+[stock] toy.txt repeat=1 status=Optimal obj=-10435.0 wall=0.0039s exit=0 toy_check=True
+[stock] toy.txt repeat=2 status=Optimal obj=-10435.0 wall=0.0040s exit=0 toy_check=True
+[stock] toy.txt repeat=3 status=Optimal obj=-10435.0 wall=0.0039s exit=0 toy_check=True
+[stock] toy.txt repeat=4 status=Optimal obj=-10435.0 wall=0.0039s exit=0 toy_check=True
+[stock] toy.txt repeat=5 status=Optimal obj=-10435.0 wall=0.0081s exit=0 toy_check=True
+[stock] A-n54-k7-149.sppcc repeat=1 status=Optimal obj=-12492.0 wall=0.6650s exit=0 toy_check=None
+[stock] A-n54-k7-149.sppcc repeat=2 status=Optimal obj=-12492.0 wall=0.6655s exit=0 toy_check=None
+[stock] A-n54-k7-149.sppcc repeat=3 status=Optimal obj=-12492.0 wall=0.6660s exit=0 toy_check=None
+[stock] A-n54-k7-149.sppcc repeat=4 status=Optimal obj=-12492.0 wall=0.6658s exit=0 toy_check=None
+[stock] A-n54-k7-149.sppcc repeat=5 status=Optimal obj=-12492.0 wall=0.7160s exit=0 toy_check=None
+[controlled] toy.txt repeat=1 status=Optimal obj=-10435.0 wall=0.0040s exit=0 toy_check=True
+[controlled] toy.txt repeat=2 status=Optimal obj=-10435.0 wall=0.0039s exit=0 toy_check=True
+[controlled] toy.txt repeat=3 status=Optimal obj=-10435.0 wall=0.0038s exit=0 toy_check=True
+[controlled] toy.txt repeat=4 status=Optimal obj=-10435.0 wall=0.0040s exit=0 toy_check=True
+[controlled] toy.txt repeat=5 status=Optimal obj=-10435.0 wall=0.0040s exit=0 toy_check=True
+[controlled] A-n54-k7-149.sppcc repeat=1 status=Optimal obj=-12492.0 wall=1.2162s exit=0 toy_check=None
+[controlled] A-n54-k7-149.sppcc repeat=2 status=Optimal obj=-12492.0 wall=1.3674s exit=0 toy_check=None
+[controlled] A-n54-k7-149.sppcc repeat=3 status=Optimal obj=-12492.0 wall=1.3669s exit=0 toy_check=None
+[controlled] A-n54-k7-149.sppcc repeat=4 status=Optimal obj=-12492.0 wall=1.3169s exit=0 toy_check=None
+[controlled] A-n54-k7-149.sppcc repeat=5 status=Optimal obj=-12492.0 wall=1.7195s exit=0 toy_check=None
+[controlled_diagnostic] toy.txt repeat=1 status=Optimal obj=-10435.0 wall=0.0045s exit=0 toy_check=True
+[controlled_diagnostic] A-n54-k7-149.sppcc repeat=1 status=Optimal obj=-12492.0 wall=1.4682s exit=0 toy_check=None
+
+E0 result: PASS; CSV: /home/moco/code/dass/e0_results/runs.csv

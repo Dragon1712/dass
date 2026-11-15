@@ -1,0 +1,30 @@
+
+=== instances/spprclib/A-n54-k7-149.sppcc ===
+Profile             n      median(s)        mean(s)       CV(%)
+p0_r                 10       1.316601       1.331735        9.23
+p1_r                 10       0.915671       0.880850        7.12
+p0_s                 10       1.241405       1.221557       11.98
+p1_s                 10       0.766112       0.770762        6.45
+p1_s_auto            10       0.765584       0.765714        6.18
+p0_r_collect         10       1.266466       1.376675       13.15
+stock                10       0.765676       0.765694        3.08
+
+Paired effects (positive = SLOWER second condition, negative = FASTER):
+  parallel_under_restricted: -0.450885s, bootstrap CI [-0.5161007000000001, -0.3856801]
+  parallel_under_standard: -0.450795s, bootstrap CI [-0.5459691, -0.35067]
+  standard_under_serial: -0.110179s, bootstrap CI [-0.2103949, -0.030252499999999995]
+  standard_under_parallel: -0.110088s, bootstrap CI [-0.15015219999999999, -0.0750735]
+  interaction_difference_in_differences: +0.000091s, bootstrap CI [-0.09999559999999996, 0.10513480000000003]
+  interaction ratio-of-ratios: 0.9569, bootstrap CI [0.8715196786598549, 1.047461849414078]
+  auto_under_parallel_standard: -0.005048s, bootstrap CI [-0.03508479999999999, 0.020104900000000016]
+  collection_under_serial_restricted: +0.044940s, bootstrap CI [-0.0652633, 0.1552172]
+  stock_vs_parallel_standard_auto: -0.000020s, bootstrap CI [-0.02515179999999999, 0.029979300000000007]
+
+Search diagnostics (ONE RUN per cell; do not compare their wall times):
+  p0_r  A-n54-k7-149.sppcc           DSSR rounds=15, total label extensions=91674, final-round extensions=7678
+  p1_r  A-n54-k7-149.sppcc           DSSR rounds=15, total label extensions=91674, final-round extensions=7678
+  p0_s  A-n54-k7-149.sppcc           DSSR rounds=9, total label extensions=77370, final-round extensions=13722
+  p1_s  A-n54-k7-149.sppcc           DSSR rounds=9, total label extensions=77370, final-round extensions=13722
+
+Wrote /home/moco/code/dass/e05_results/e05_analysis.json
+WARNING: bootstrap CIs describe run-to-run variability on these instances; they DO NOT establish generalization across problem instances.
