@@ -1,0 +1,23 @@
+profile,instance,repeat,status,objective,tour,consumption,wall_time_s,exit_code,optimal,toy_reference_ok,timed_out,log_path
+stock,instances/toy.txt,1,Optimal,-10435.0,0 2 1 4,9,0.003938,0,True,True,False,logs/stock__toy_d80bb86c__r01.log
+stock,instances/toy.txt,2,Optimal,-10435.0,0 2 1 4,9,0.003977,0,True,True,False,logs/stock__toy_d80bb86c__r02.log
+stock,instances/toy.txt,3,Optimal,-10435.0,0 2 1 4,9,0.003905,0,True,True,False,logs/stock__toy_d80bb86c__r03.log
+stock,instances/toy.txt,4,Optimal,-10435.0,0 2 1 4,9,0.003869,0,True,True,False,logs/stock__toy_d80bb86c__r04.log
+stock,instances/toy.txt,5,Optimal,-10435.0,0 2 1 4,9,0.008092,0,True,True,False,logs/stock__toy_d80bb86c__r05.log
+stock,instances/spprclib/A-n54-k7-149.sppcc,1,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,0.665024,0,True,,False,logs/stock__A-n54-k7-149_29384774__r01.log
+stock,instances/spprclib/A-n54-k7-149.sppcc,2,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,0.66551,0,True,,False,logs/stock__A-n54-k7-149_29384774__r02.log
+stock,instances/spprclib/A-n54-k7-149.sppcc,3,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,0.66596,0,True,,False,logs/stock__A-n54-k7-149_29384774__r03.log
+stock,instances/spprclib/A-n54-k7-149.sppcc,4,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,0.665767,0,True,,False,logs/stock__A-n54-k7-149_29384774__r04.log
+stock,instances/spprclib/A-n54-k7-149.sppcc,5,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,0.716011,0,True,,False,logs/stock__A-n54-k7-149_29384774__r05.log
+controlled,instances/toy.txt,1,Optimal,-10435.0,0 2 1 4,9,0.004022,0,True,True,False,logs/controlled__toy_d80bb86c__r01.log
+controlled,instances/toy.txt,2,Optimal,-10435.0,0 2 1 4,9,0.003927,0,True,True,False,logs/controlled__toy_d80bb86c__r02.log
+controlled,instances/toy.txt,3,Optimal,-10435.0,0 2 1 4,9,0.003849,0,True,True,False,logs/controlled__toy_d80bb86c__r03.log
+controlled,instances/toy.txt,4,Optimal,-10435.0,0 2 1 4,9,0.003978,0,True,True,False,logs/controlled__toy_d80bb86c__r04.log
+controlled,instances/toy.txt,5,Optimal,-10435.0,0 2 1 4,9,0.004003,0,True,True,False,logs/controlled__toy_d80bb86c__r05.log
+controlled,instances/spprclib/A-n54-k7-149.sppcc,1,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,1.216172,0,True,,False,logs/controlled__A-n54-k7-149_29384774__r01.log
+controlled,instances/spprclib/A-n54-k7-149.sppcc,2,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,1.367423,0,True,,False,logs/controlled__A-n54-k7-149_29384774__r02.log
+controlled,instances/spprclib/A-n54-k7-149.sppcc,3,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,1.366884,0,True,,False,logs/controlled__A-n54-k7-149_29384774__r03.log
+controlled,instances/spprclib/A-n54-k7-149.sppcc,4,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,1.316922,0,True,,False,logs/controlled__A-n54-k7-149_29384774__r04.log
+controlled,instances/spprclib/A-n54-k7-149.sppcc,5,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,1.719546,0,True,,False,logs/controlled__A-n54-k7-149_29384774__r05.log
+controlled_diagnostic,instances/toy.txt,1,Optimal,-10435.0,0 2 1 4,9,0.004546,0,True,True,False,logs/controlled_diagnostic__toy_d80bb86c__r01.log
+controlled_diagnostic,instances/spprclib/A-n54-k7-149.sppcc,1,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,1.468186,0,True,,False,logs/controlled_diagnostic__A-n54-k7-149_29384774__r01.log

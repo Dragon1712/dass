@@ -1,0 +1,62 @@
+# command: /home/moco/code/dass/pathwyse/bin/pathwyse /home/moco/code/dass/pathwyse/instances/toy.txt -param /home/moco/code/dass/e0_results/configs/controlled_diagnostic.set
+# cwd: /home/moco/code/dass/pathwyse
+[ PathWyse ver. 1.0]
+--------------------------------------------
+Reading problem data: /home/moco/code/dass/pathwyse/instances/toy.txt
+Warning: Symmetric not set, assuming asymmetric network
+Reading problem data complete
+--------------------------------------------
+[ Problem ]
+  Name                            : Toy
+  Nodes                           : 5
+  Resources                       : 1
+  Origin                          : 0
+  Destination                     : 4
+  Resource Upper Bounds           : 12 
+--------------------------------------------
+Solving problem...
+Solving complete
+--------------------------------------------
+[ Optimization ]
+  Active algorithms               : 1
+  Parallel mode                   : 0
+  Solutions count                 : 1
+  Problem Status                  : Feasible
+  PWDefault Status                : Optimization complete
+  PWDefault Time                  : 0.000081
+--------------------------------------------
+[ Data Collection ]
+  Collection                      : PWDefault
+  algo_name                       : PWDefault
+  algo_type                       : Exact
+  relaxation                      : DSSR restricted
+  time                            : 0.000081
+  Global_time                     : 0.000081
+  t_labeling                      : 0.000024
+  t_labeling_cumul.               : 0.000024
+  t_ext_fw                        : 0.000016
+  t_ext_fw_cumul.                 : 0.000016
+  t_ext_bw                        : 0.000002
+  t_ext_bw_cumul.                 : 0.000002
+  t_join                          : 0.000009
+  t_join_cumul.                   : 0.000009
+  executionID                     : 1
+  iterations                      : 1
+  lb                              : -1043500
+  ub                              : -1043500
+  algo_status                     : 2
+  bidirectional                   : 1
+  timeout                         : 0
+  use_visited                     : 1
+  it_ext_fw                       : 6
+  it_ext_bw                       : 3
+  neighbourhood_max_size          : 0
+  NGroute_compliant               : -1
+--------------------------------------------
+[ Solution ]
+  Solution Status                 : Optimal
+  Obj                             : -10435.000000
+  Tour Length                     : 4
+  Tour                            : 0 2 1 4 
+  Consumption                     : 9 
+--------------------------------------------

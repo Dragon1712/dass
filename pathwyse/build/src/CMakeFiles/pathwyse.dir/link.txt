@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -w -pthread -fopenmp -DNDEBUG -O3 -DNDEBUG CMakeFiles/pathwyse.dir/standalone/main.cpp.o -o /home/moco/code/dass/pathwyse/bin/pathwyse  -Wl,-rpath,/home/moco/code/dass/pathwyse/bin /home/moco/code/dass/pathwyse/bin/libpathwyse_core.so 

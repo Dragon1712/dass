@@ -1,0 +1,30 @@
+# command: cmake --build /home/moco/code/dass/pathwyse/build -j 8
+# cwd: /home/moco/code/dass/pathwyse
+[  3%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/data/graph.cpp.o
+[  7%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/solver.cpp.o
+[ 11%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/data/path.cpp.o
+[ 15%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/resources/capacity.cpp.o
+[ 23%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/data/problem.cpp.o
+[ 23%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/resources/defaultcost.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/resources/node_limit.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/resources/time.cpp.o
+[ 34%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/resources/time_windows.cpp.o
+[ 38%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/algorithms/algorithm.cpp.o
+[ 42%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/algorithms/labels/label.cpp.o
+[ 46%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/algorithms/labels/label_advanced.cpp.o
+[ 50%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/algorithms/preprocessing/dijkstra.cpp.o
+[ 53%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/algorithms/preprocessing/preprocessing.cpp.o
+[ 57%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/algorithms/dynamic_programming/PW_default/PW_default.cpp.o
+[ 61%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/algorithms/dynamic_programming/PW_default/LM_default.cpp.o
+[ 65%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/algorithms/dynamic_programming/PW_bucket/PW_bucket.cpp.o
+[ 69%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/algorithms/dynamic_programming/PW_bucket/LM_bucket.cpp.o
+[ 73%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/algorithms/dynamic_programming/PW_acyclic/PW_acyclic.cpp.o
+[ 76%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/algorithms/dynamic_programming/PW_acyclic/LM_acyclic.cpp.o
+[ 80%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/utils/bitset.cpp.o
+[ 84%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/utils/data_collector.cpp.o
+[ 88%] Building CXX object src/CMakeFiles/pathwyse_core.dir/core/utils/param.cpp.o
+[ 92%] Linking CXX shared library /home/moco/code/dass/pathwyse/bin/libpathwyse_core.so
+[ 92%] Built target pathwyse_core
+[ 96%] Building CXX object src/CMakeFiles/pathwyse.dir/standalone/main.cpp.o
+[100%] Linking CXX executable /home/moco/code/dass/pathwyse/bin/pathwyse
+[100%] Built target pathwyse

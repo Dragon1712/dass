@@ -1,0 +1,21 @@
+{
+  "experiment": "VOC-LS/E0",
+  "started_utc": "2026-11-15T14:18:47.161937+00:00",
+  "repository_url": "https://github.com/Dragon1712/dass.git",
+  "project_subdir": "pathwyse-main",
+  "source_checkout_requested": "/home/moco/code/dass/voc_ls_e0_dass/voc_ls_e0_work/dass",
+  "out": "/home/moco/code/dass/voc_ls_e0_dass/voc_ls_e0_work/results/e0",
+  "expected_commit": "d5a786dbbe2351d65564bf1245b54c72edfe2164",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "python": "3.11.7 (main, Dec 15 2023, 18:12:31) [GCC 11.2.0]",
+  "cmake": "UNAVAILABLE: [Errno 2] No such file or directory: 'cmake'",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "git": "git version 2.43.0",
+  "profiles": "both",
+  "repeats": 3,
+  "stock_is_correctness_only": true,
+  "timeout_s": 120,
+  "run_completed": false,
+  "error": "Git clone failed; inspect logs/clone.log. If the repo is already downloaded, pass --repo /path/to/dass or --repo /path/to/dass/pathwyse-main.",
+  "completed_utc": "2026-11-15T14:21:47.171095+00:00"
+}

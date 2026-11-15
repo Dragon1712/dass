@@ -1,0 +1,129 @@
+{
+  "experiment": "VOC-LS/E0",
+  "started_utc": "2026-11-15T14:30:29.456837+00:00",
+  "repository_url": "https://github.com/Dragon1712/dass.git",
+  "project_subdir": "pathwyse-main",
+  "source_checkout_requested": "/home/moco/code/dass/pathwyse",
+  "out": "/home/moco/code/dass/e0_results",
+  "expected_commit": "",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "python": "3.10.22 (main, Oct 29 2026, 20:33:25) [GCC 14.3.0]",
+  "cmake": "cmake version 3.28.3",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "git": "git version 2.43.0",
+  "profiles": "both",
+  "repeats": 5,
+  "stock_is_correctness_only": true,
+  "timeout_s": 300,
+  "run_completed": true,
+  "project_root": "/home/moco/code/dass/pathwyse",
+  "git_commit": "e3bf8477de8ff7a9a777a8c980b81330f5d1ec6f",
+  "toy_independent_oracle": {
+    "instance": "/home/moco/code/dass/pathwyse/instances/toy.txt",
+    "best": {
+      "objective": -10435.0,
+      "tour": [
+        0,
+        2,
+        1,
+        4
+      ],
+      "consumption": 9.0
+    },
+    "elementary_paths_explored": 10,
+    "verified": true,
+    "scope": "independent exhaustive oracle, official toy only"
+  },
+  "config_sha256": {
+    "stock": "8921817185ee3c9f51c57ca5318ce4294142892157442a512016128116fe7095",
+    "controlled": "72bd699d6c931b63c87e20ab05d8dadf159dfb7ac8171506d0cdb50af5a9ee7d",
+    "controlled_diagnostic": "f67e97e167e1ad2f7ee5ea5363390e1acb40b40c4fb6cfb9d1162d058ab5cf95"
+  },
+  "instances": [
+    {
+      "path": "/home/moco/code/dass/pathwyse/instances/toy.txt",
+      "sha256": "d80bb86cfc72262de5fb4170bd2615e33368359fc69f778283350507318d5914"
+    },
+    {
+      "path": "/home/moco/code/dass/pathwyse/instances/spprclib/A-n54-k7-149.sppcc",
+      "sha256": "293847740116b133bb8c075cd43c648f16cd34ba96023cab5594f024b30aa1c9"
+    }
+  ],
+  "completed_utc": "2026-11-15T14:30:52.524162+00:00",
+  "all_checks_passed": true,
+  "objectives_consistent_across_profiles": true,
+  "aggregates": [
+    {
+      "profile": "controlled",
+      "instance": "instances/spprclib/A-n54-k7-149.sppcc",
+      "successful_runs": 5,
+      "total_runs": 5,
+      "median_wall_s": 1.366884,
+      "mean_wall_s": 1.3973894,
+      "min_wall_s": 1.216172,
+      "max_wall_s": 1.719546,
+      "objectives_consistent": true,
+      "objective": -12492.0
+    },
+    {
+      "profile": "controlled",
+      "instance": "instances/toy.txt",
+      "successful_runs": 5,
+      "total_runs": 5,
+      "median_wall_s": 0.003978,
+      "mean_wall_s": 0.0039558,
+      "min_wall_s": 0.003849,
+      "max_wall_s": 0.004022,
+      "objectives_consistent": true,
+      "objective": -10435.0
+    },
+    {
+      "profile": "controlled_diagnostic",
+      "instance": "instances/spprclib/A-n54-k7-149.sppcc",
+      "successful_runs": 1,
+      "total_runs": 1,
+      "median_wall_s": 1.468186,
+      "mean_wall_s": 1.468186,
+      "min_wall_s": 1.468186,
+      "max_wall_s": 1.468186,
+      "objectives_consistent": true,
+      "objective": -12492.0
+    },
+    {
+      "profile": "controlled_diagnostic",
+      "instance": "instances/toy.txt",
+      "successful_runs": 1,
+      "total_runs": 1,
+      "median_wall_s": 0.004546,
+      "mean_wall_s": 0.004546,
+      "min_wall_s": 0.004546,
+      "max_wall_s": 0.004546,
+      "objectives_consistent": true,
+      "objective": -10435.0
+    },
+    {
+      "profile": "stock",
+      "instance": "instances/spprclib/A-n54-k7-149.sppcc",
+      "successful_runs": 5,
+      "total_runs": 5,
+      "median_wall_s": 0.665767,
+      "mean_wall_s": 0.6756544,
+      "min_wall_s": 0.665024,
+      "max_wall_s": 0.716011,
+      "objectives_consistent": true,
+      "objective": -12492.0
+    },
+    {
+      "profile": "stock",
+      "instance": "instances/toy.txt",
+      "successful_runs": 5,
+      "total_runs": 5,
+      "median_wall_s": 0.003938,
+      "mean_wall_s": 0.0047562,
+      "min_wall_s": 0.003869,
+      "max_wall_s": 0.008092,
+      "objectives_consistent": true,
+      "objective": -10435.0
+    }
+  ]
+}

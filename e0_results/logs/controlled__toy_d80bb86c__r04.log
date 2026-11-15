@@ -1,0 +1,29 @@
+# command: /home/moco/code/dass/pathwyse/bin/pathwyse /home/moco/code/dass/pathwyse/instances/toy.txt -param /home/moco/code/dass/e0_results/configs/controlled.set
+# cwd: /home/moco/code/dass/pathwyse
+[ PathWyse ver. 1.0]
+--------------------------------------------
+--------------------------------------------
+[ Problem ]
+  Name                            : Toy
+  Nodes                           : 5
+  Resources                       : 1
+  Origin                          : 0
+  Destination                     : 4
+  Resource Upper Bounds           : 12 
+--------------------------------------------
+--------------------------------------------
+[ Optimization ]
+  Active algorithms               : 1
+  Parallel mode                   : 0
+  Solutions count                 : 1
+  Problem Status                  : Feasible
+  PWDefault Status                : Optimization complete
+  PWDefault Time                  : 0.000055
+--------------------------------------------
+[ Solution ]
+  Solution Status                 : Optimal
+  Obj                             : -10435.000000
+  Tour Length                     : 4
+  Tour                            : 0 2 1 4 
+  Consumption                     : 9 
+--------------------------------------------

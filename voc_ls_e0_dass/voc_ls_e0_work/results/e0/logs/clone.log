@@ -1,0 +1,6 @@
+# command: git clone --depth 1 https://github.com/Dragon1712/dass.git /home/moco/code/dass/voc_ls_e0_dass/voc_ls_e0_work/dass
+# cwd: /home/moco/code/dass/voc_ls_e0_dass/voc_ls_e0_work
+正克隆到 '/home/moco/code/dass/voc_ls_e0_dass/voc_ls_e0_work/dass'...
+
+[E0_RUNNER] TIMEOUT after 180 seconds
+fatal: 过早的文件结束符（EOF）
