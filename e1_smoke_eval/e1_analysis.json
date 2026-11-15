@@ -1,0 +1,100 @@
+{
+  "per_instance_profile": [
+    {
+      "instance": "instances/spprclib/A-n54-k7-149.sppcc",
+      "profile": "p0_r",
+      "pairs": 3,
+      "B0_mean_wall_s": 1.5016170916666667,
+      "B1_mean_wall_s": 1.3004066183333334,
+      "B0_median_wall_s": 1.652668798,
+      "B1_median_wall_s": 1.288811635,
+      "paired_mean_B0_minus_B1_s": 0.2012104733333333,
+      "paired_bootstrap_95pct_ci_s": [
+        -0.1825947080000001,
+        0.422368965
+      ],
+      "paired_mean_percentage_saving": 10.563012892408558,
+      "mean_speedup_B0_over_B1": 1.1616010581444156,
+      "paired_mean_extension_reduction": 0,
+      "B1_mean_selector_ms": 49.202480666666666,
+      "B1_mean_scored_labels": 893599,
+      "B1_mean_reordered_choices": 83361,
+      "iteration_counts_by_round": [
+        [
+          15,
+          15
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          15,
+          15
+        ]
+      ],
+      "B1_faster_rounds": 2,
+      "B0_faster_rounds": 1
+    },
+    {
+      "instance": "instances/spprclib/A-n54-k7-149.sppcc",
+      "profile": "p1_s",
+      "pairs": 3,
+      "B0_mean_wall_s": 0.7823363823333334,
+      "B1_mean_wall_s": 0.7826670646666667,
+      "B0_median_wall_s": 0.80275508,
+      "B1_median_wall_s": 0.808446902,
+      "paired_mean_B0_minus_B1_s": -0.00033068233333333197,
+      "paired_bootstrap_95pct_ci_s": [
+        -0.10424749899999997,
+        0.10894727400000004
+      ],
+      "paired_mean_percentage_saving": -0.7193329110804594,
+      "mean_speedup_B0_over_B1": 1.0056311890722556,
+      "paired_mean_extension_reduction": 0,
+      "B1_mean_selector_ms": 40.42732933333333,
+      "B1_mean_scored_labels": 523723,
+      "B1_mean_reordered_choices": 67917,
+      "iteration_counts_by_round": [
+        [
+          9,
+          9
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          9,
+          9
+        ]
+      ],
+      "B1_faster_rounds": 1,
+      "B0_faster_rounds": 2
+    }
+  ],
+  "cross_instance": {
+    "p0_r": {
+      "n_instances": 1,
+      "equal_instance_mean_delta_s": 0.2012104733333333,
+      "instance_bootstrap_95pct_ci_s": [
+        0.2012104733333333,
+        0.2012104733333333
+      ],
+      "win_instances": 1,
+      "lose_instances": 0
+    },
+    "p1_s": {
+      "n_instances": 1,
+      "equal_instance_mean_delta_s": -0.00033068233333333197,
+      "instance_bootstrap_95pct_ci_s": [
+        -0.00033068233333333197,
+        -0.00033068233333333197
+      ],
+      "win_instances": 0,
+      "lose_instances": 1
+    }
+  },
+  "train_test_overlap_smoke": true,
+  "limits": "No causal effect of learning can be claimed from same-instance training smoke; per-round bootstrap is not across-instance uncertainty."
+}

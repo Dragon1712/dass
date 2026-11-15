@@ -1,0 +1,12 @@
+instance_id,group,source,split,profile,phase,repeat,status,objective,tour,consumption,wall_s,wall_ns,solver_s,model_used,inference_calls,inference_time_ns,exit_code,timed_out,log_path
+ood_graph_0000,ood_graph_0000,synthetic_ood,ood,B0_R,timing,1,Optimal,-29404.0,0 16 21 2 3 4 12 13 14 6 7 8 9 22 23,28,0.012222862,12222862,0.010022,False,0,0,0,False,logs/ood_graph_0000__B0_R__timing__r001.log
+ood_graph_0000,ood_graph_0000,synthetic_ood,ood,B0_Strong,timing,1,Optimal,-29404.0,0 16 21 2 3 4 12 13 14 6 7 8 9 22 23,28,0.005384068,5384068,0.003282,False,0,0,0,False,logs/ood_graph_0000__B0_Strong__timing__r001.log
+ood_graph_0000,ood_graph_0000,synthetic_ood,ood,B0_Strong,timing,2,Optimal,-29404.0,0 16 21 2 3 4 12 13 14 6 7 8 9 22 23,28,0.00458462,4584620,0.002437,False,0,0,0,False,logs/ood_graph_0000__B0_Strong__timing__r002.log
+ood_graph_0000,ood_graph_0000,synthetic_ood,ood,B0_R,timing,2,Optimal,-29404.0,0 16 21 2 3 4 12 13 14 6 7 8 9 22 23,28,0.012050982,12050982,0.010024,False,0,0,0,False,logs/ood_graph_0000__B0_R__timing__r002.log
+ood_graph_0000,ood_graph_0000,synthetic_ood,ood,B0_R,timing,3,Optimal,-29404.0,0 16 21 2 3 4 12 13 14 6 7 8 9 22 23,28,0.012321019,12321019,0.009978,False,0,0,0,False,logs/ood_graph_0000__B0_R__timing__r003.log
+ood_graph_0000,ood_graph_0000,synthetic_ood,ood,B0_Strong,timing,3,Optimal,-29404.0,0 16 21 2 3 4 12 13 14 6 7 8 9 22 23,28,0.006412764,6412764,0.002726,False,0,0,0,False,logs/ood_graph_0000__B0_Strong__timing__r003.log
+ood_graph_0000,ood_graph_0000,synthetic_ood,ood,B0_Strong,timing,4,Optimal,-29404.0,0 16 21 2 3 4 12 13 14 6 7 8 9 22 23,28,0.006200218,6200218,0.003744,False,0,0,0,False,logs/ood_graph_0000__B0_Strong__timing__r004.log
+ood_graph_0000,ood_graph_0000,synthetic_ood,ood,B0_R,timing,4,Optimal,-29404.0,0 16 21 2 3 4 12 13 14 6 7 8 9 22 23,28,0.01196079,11960790,0.009916,False,0,0,0,False,logs/ood_graph_0000__B0_R__timing__r004.log
+ood_graph_0000,ood_graph_0000,synthetic_ood,ood,B0_R,timing,5,Optimal,-29404.0,0 16 21 2 3 4 12 13 14 6 7 8 9 22 23,28,0.012324548,12324548,0.009992,False,0,0,0,False,logs/ood_graph_0000__B0_R__timing__r005.log
+ood_graph_0000,ood_graph_0000,synthetic_ood,ood,B0_Strong,timing,5,Optimal,-29404.0,0 16 21 2 3 4 12 13 14 6 7 8 9 22 23,28,0.004388497,4388497,0.002076,False,0,0,0,False,logs/ood_graph_0000__B0_Strong__timing__r005.log
+ood_graph_0001,ood_graph_0001,synthetic_ood,ood,B0_R,timing,1,Optimal,-35868.0,0 14 9 10 11 12 18 19 20 21 1 2 3 13 23,24,0.430902541,430902541,0.42775,False,0,0,0,False,logs/ood_graph_0001__B0_R__timing__r001.log

@@ -1,0 +1,14 @@
+instances/spprclib/A-n80-k10-14.sppcc
+instances/spprclib/P-n65-k10-102.sppcc
+instances/spprclib/B-n67-k10-26.sppcc
+instances/spprclib/A-n61-k9-80.sppcc
+instances/spprclib/A-n64-k9-45.sppcc
+instances/spprclib/B-n52-k7-15.sppcc
+instances/spprclib/M-n200-k16-143.sppcc
+instances/spprclib/B-n50-k8-40.sppcc
+instances/spprclib/E-n76-k15-40.sppcc
+instances/spprclib/B-n45-k6-54.sppcc
+instances/spprclib/P-n55-k8-260.sppcc
+instances/spprclib/P-n101-k4-174.sppcc
+instances/spprclib/A-n60-k9-57.sppcc
+instances/spprclib/E-n101-k8-291.sppcc

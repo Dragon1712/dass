@@ -26,7 +26,7 @@ public:
     bool preprocessing();
     void solve() override;
     void labeling(bool forward, bool backward);
-    void extend(LabelAdv* candidate);
+    void extend(LabelAdv* candidate, int* e1_attempted = nullptr, int* e1_accepted = nullptr); // VOC_LS_E1_PATCH_V1
     bool checkTermination();
 
     //Path building

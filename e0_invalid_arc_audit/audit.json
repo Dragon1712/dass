@@ -1,0 +1,376 @@
+{
+  "metadata": {
+    "instance_sha256": "169e9b7880edeb0a0b3243fc95fdaf58641bc4375d132896d6e753c41cc8f408",
+    "binary_sha256": "68ac2a511b2ffbf66472af2b3f07dc42921dc1969e21ea0b5c794b1020c7993b",
+    "base_config_sha256": "d581b2544fd415738b380e9ad3dfab1adc521216319591369bb8221c5953fd9f",
+    "configs_sha256": {
+      "p0_r": "d581b2544fd415738b380e9ad3dfab1adc521216319591369bb8221c5953fd9f",
+      "p1_r": "dabe12866329ab52a81b19b701c756331b300310d85b854faad24dff157b0ce3",
+      "p0_s": "4eff6c26876e26a87ff77e309b3073338bfc50928add621c8941ad3e543c6a56",
+      "p1_s": "0f67b43c11054a061625a155c98a45b58547922820e2cd8fc4fb1dfdb373d446"
+    },
+    "repeats": 3
+  },
+  "runs": [
+    {
+      "profile": "p0_r",
+      "repeat": 1,
+      "exit_code": 0,
+      "timeout": false,
+      "valid": true,
+      "parsed": {
+        "status": "Optimal",
+        "objective": "-35868.000000",
+        "tour": "0 14 9 10 11 12 18 19 20 21 1 2 3 13 23",
+        "consumption": "24",
+        "algorithm_time": "0.428186"
+      },
+      "audit": {
+        "route_valid": true,
+        "missing_arcs": [],
+        "tour_nodes": 15,
+        "start_end_correct": true,
+        "elementary": true,
+        "resource_reconstructed": 24.0,
+        "resource_in_bounds": true,
+        "reported_resource_matches": true,
+        "objective_reconstructed": -35868.0,
+        "objective_matches": true
+      },
+      "log": "/home/moco/code/dass/e0_invalid_arc_audit/logs/p0_r__r01.log"
+    },
+    {
+      "profile": "p1_r",
+      "repeat": 1,
+      "exit_code": 0,
+      "timeout": false,
+      "valid": true,
+      "parsed": {
+        "status": "Optimal",
+        "objective": "-35868.000000",
+        "tour": "0 14 9 10 11 12 18 19 20 21 1 2 3 13 23",
+        "consumption": "24",
+        "algorithm_time": "0.333982"
+      },
+      "audit": {
+        "route_valid": true,
+        "missing_arcs": [],
+        "tour_nodes": 15,
+        "start_end_correct": true,
+        "elementary": true,
+        "resource_reconstructed": 24.0,
+        "resource_in_bounds": true,
+        "reported_resource_matches": true,
+        "objective_reconstructed": -35868.0,
+        "objective_matches": true
+      },
+      "log": "/home/moco/code/dass/e0_invalid_arc_audit/logs/p1_r__r01.log"
+    },
+    {
+      "profile": "p0_s",
+      "repeat": 1,
+      "exit_code": 0,
+      "timeout": false,
+      "valid": false,
+      "parsed": {
+        "status": "Optimal",
+        "objective": "-36153.000000",
+        "tour": "0 1 9 14 3 13 10 11 12 6 18 19 20 21 22 23",
+        "consumption": "25",
+        "algorithm_time": "0.084699"
+      },
+      "audit": {
+        "route_valid": false,
+        "missing_arcs": [
+          {
+            "u": 14,
+            "v": 3,
+            "reverse_exists": true,
+            "reverse_cost": 3031.0
+          }
+        ],
+        "tour_nodes": 16,
+        "start_end_correct": true,
+        "elementary": true,
+        "resource_reconstructed": 25.0,
+        "resource_in_bounds": true,
+        "reported_resource_matches": true,
+        "objective_matches": false
+      },
+      "log": "/home/moco/code/dass/e0_invalid_arc_audit/logs/p0_s__r01.log"
+    },
+    {
+      "profile": "p1_s",
+      "repeat": 1,
+      "exit_code": 0,
+      "timeout": false,
+      "valid": false,
+      "parsed": {
+        "status": "Optimal",
+        "objective": "-36153.000000",
+        "tour": "0 1 9 14 3 13 10 11 12 6 18 19 20 21 22 23",
+        "consumption": "25",
+        "algorithm_time": "0.060881"
+      },
+      "audit": {
+        "route_valid": false,
+        "missing_arcs": [
+          {
+            "u": 14,
+            "v": 3,
+            "reverse_exists": true,
+            "reverse_cost": 3031.0
+          }
+        ],
+        "tour_nodes": 16,
+        "start_end_correct": true,
+        "elementary": true,
+        "resource_reconstructed": 25.0,
+        "resource_in_bounds": true,
+        "reported_resource_matches": true,
+        "objective_matches": false
+      },
+      "log": "/home/moco/code/dass/e0_invalid_arc_audit/logs/p1_s__r01.log"
+    },
+    {
+      "profile": "p0_r",
+      "repeat": 2,
+      "exit_code": 0,
+      "timeout": false,
+      "valid": true,
+      "parsed": {
+        "status": "Optimal",
+        "objective": "-35868.000000",
+        "tour": "0 14 9 10 11 12 18 19 20 21 1 2 3 13 23",
+        "consumption": "24",
+        "algorithm_time": "0.428443"
+      },
+      "audit": {
+        "route_valid": true,
+        "missing_arcs": [],
+        "tour_nodes": 15,
+        "start_end_correct": true,
+        "elementary": true,
+        "resource_reconstructed": 24.0,
+        "resource_in_bounds": true,
+        "reported_resource_matches": true,
+        "objective_reconstructed": -35868.0,
+        "objective_matches": true
+      },
+      "log": "/home/moco/code/dass/e0_invalid_arc_audit/logs/p0_r__r02.log"
+    },
+    {
+      "profile": "p1_r",
+      "repeat": 2,
+      "exit_code": 0,
+      "timeout": false,
+      "valid": true,
+      "parsed": {
+        "status": "Optimal",
+        "objective": "-35868.000000",
+        "tour": "0 14 9 10 11 12 18 19 20 21 1 2 3 13 23",
+        "consumption": "24",
+        "algorithm_time": "0.347877"
+      },
+      "audit": {
+        "route_valid": true,
+        "missing_arcs": [],
+        "tour_nodes": 15,
+        "start_end_correct": true,
+        "elementary": true,
+        "resource_reconstructed": 24.0,
+        "resource_in_bounds": true,
+        "reported_resource_matches": true,
+        "objective_reconstructed": -35868.0,
+        "objective_matches": true
+      },
+      "log": "/home/moco/code/dass/e0_invalid_arc_audit/logs/p1_r__r02.log"
+    },
+    {
+      "profile": "p0_s",
+      "repeat": 2,
+      "exit_code": 0,
+      "timeout": false,
+      "valid": false,
+      "parsed": {
+        "status": "Optimal",
+        "objective": "-36153.000000",
+        "tour": "0 1 9 14 3 13 10 11 12 6 18 19 20 21 22 23",
+        "consumption": "25",
+        "algorithm_time": "0.084856"
+      },
+      "audit": {
+        "route_valid": false,
+        "missing_arcs": [
+          {
+            "u": 14,
+            "v": 3,
+            "reverse_exists": true,
+            "reverse_cost": 3031.0
+          }
+        ],
+        "tour_nodes": 16,
+        "start_end_correct": true,
+        "elementary": true,
+        "resource_reconstructed": 25.0,
+        "resource_in_bounds": true,
+        "reported_resource_matches": true,
+        "objective_matches": false
+      },
+      "log": "/home/moco/code/dass/e0_invalid_arc_audit/logs/p0_s__r02.log"
+    },
+    {
+      "profile": "p1_s",
+      "repeat": 2,
+      "exit_code": 0,
+      "timeout": false,
+      "valid": false,
+      "parsed": {
+        "status": "Optimal",
+        "objective": "-36153.000000",
+        "tour": "0 1 9 14 3 13 10 11 12 6 18 19 20 21 22 23",
+        "consumption": "25",
+        "algorithm_time": "0.062594"
+      },
+      "audit": {
+        "route_valid": false,
+        "missing_arcs": [
+          {
+            "u": 14,
+            "v": 3,
+            "reverse_exists": true,
+            "reverse_cost": 3031.0
+          }
+        ],
+        "tour_nodes": 16,
+        "start_end_correct": true,
+        "elementary": true,
+        "resource_reconstructed": 25.0,
+        "resource_in_bounds": true,
+        "reported_resource_matches": true,
+        "objective_matches": false
+      },
+      "log": "/home/moco/code/dass/e0_invalid_arc_audit/logs/p1_s__r02.log"
+    },
+    {
+      "profile": "p0_r",
+      "repeat": 3,
+      "exit_code": 0,
+      "timeout": false,
+      "valid": true,
+      "parsed": {
+        "status": "Optimal",
+        "objective": "-35868.000000",
+        "tour": "0 14 9 10 11 12 18 19 20 21 1 2 3 13 23",
+        "consumption": "24",
+        "algorithm_time": "0.426210"
+      },
+      "audit": {
+        "route_valid": true,
+        "missing_arcs": [],
+        "tour_nodes": 15,
+        "start_end_correct": true,
+        "elementary": true,
+        "resource_reconstructed": 24.0,
+        "resource_in_bounds": true,
+        "reported_resource_matches": true,
+        "objective_reconstructed": -35868.0,
+        "objective_matches": true
+      },
+      "log": "/home/moco/code/dass/e0_invalid_arc_audit/logs/p0_r__r03.log"
+    },
+    {
+      "profile": "p1_r",
+      "repeat": 3,
+      "exit_code": 0,
+      "timeout": false,
+      "valid": true,
+      "parsed": {
+        "status": "Optimal",
+        "objective": "-35868.000000",
+        "tour": "0 14 9 10 11 12 18 19 20 21 1 2 3 13 23",
+        "consumption": "24",
+        "algorithm_time": "0.340285"
+      },
+      "audit": {
+        "route_valid": true,
+        "missing_arcs": [],
+        "tour_nodes": 15,
+        "start_end_correct": true,
+        "elementary": true,
+        "resource_reconstructed": 24.0,
+        "resource_in_bounds": true,
+        "reported_resource_matches": true,
+        "objective_reconstructed": -35868.0,
+        "objective_matches": true
+      },
+      "log": "/home/moco/code/dass/e0_invalid_arc_audit/logs/p1_r__r03.log"
+    },
+    {
+      "profile": "p0_s",
+      "repeat": 3,
+      "exit_code": 0,
+      "timeout": false,
+      "valid": false,
+      "parsed": {
+        "status": "Optimal",
+        "objective": "-36153.000000",
+        "tour": "0 1 9 14 3 13 10 11 12 6 18 19 20 21 22 23",
+        "consumption": "25",
+        "algorithm_time": "0.084686"
+      },
+      "audit": {
+        "route_valid": false,
+        "missing_arcs": [
+          {
+            "u": 14,
+            "v": 3,
+            "reverse_exists": true,
+            "reverse_cost": 3031.0
+          }
+        ],
+        "tour_nodes": 16,
+        "start_end_correct": true,
+        "elementary": true,
+        "resource_reconstructed": 25.0,
+        "resource_in_bounds": true,
+        "reported_resource_matches": true,
+        "objective_matches": false
+      },
+      "log": "/home/moco/code/dass/e0_invalid_arc_audit/logs/p0_s__r03.log"
+    },
+    {
+      "profile": "p1_s",
+      "repeat": 3,
+      "exit_code": 0,
+      "timeout": false,
+      "valid": false,
+      "parsed": {
+        "status": "Optimal",
+        "objective": "-36153.000000",
+        "tour": "0 1 9 14 3 13 10 11 12 6 18 19 20 21 22 23",
+        "consumption": "25",
+        "algorithm_time": "0.062147"
+      },
+      "audit": {
+        "route_valid": false,
+        "missing_arcs": [
+          {
+            "u": 14,
+            "v": 3,
+            "reverse_exists": true,
+            "reverse_cost": 3031.0
+          }
+        ],
+        "tour_nodes": 16,
+        "start_end_correct": true,
+        "elementary": true,
+        "resource_reconstructed": 25.0,
+        "resource_in_bounds": true,
+        "reported_resource_matches": true,
+        "objective_matches": false
+      },
+      "log": "/home/moco/code/dass/e0_invalid_arc_audit/logs/p1_s__r03.log"
+    }
+  ]
+}

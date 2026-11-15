@@ -1,0 +1,29 @@
+# cwd: /home/moco/code/dass/pathwyse
+# command: /home/moco/code/dass/pathwyse/bin/pathwyse /home/moco/code/dass/e0_standard_data/synthetic/n18_graph0017.txt -param /home/moco/code/dass/e0_standard_dev/configs/B0_Strong_timing.set
+[ PathWyse ver. 1.0]
+--------------------------------------------
+--------------------------------------------
+[ Problem ]
+  Name                            : VOC_SYNTH_20261115117
+  Nodes                           : 18
+  Resources                       : 1
+  Origin                          : 0
+  Destination                     : 17
+  Resource Upper Bounds           : 18 
+--------------------------------------------
+--------------------------------------------
+[ Optimization ]
+  Active algorithms               : 1
+  Parallel mode                   : 0
+  Solutions count                 : 1
+  Problem Status                  : Feasible
+  PWDefault Status                : Optimization complete
+  PWDefault Time                  : 0.005227
+--------------------------------------------
+[ Solution ]
+  Solution Status                 : Optimal
+  Obj                             : -26104.000000
+  Tour Length                     : 13
+  Tour                            : 0 12 13 14 7 16 8 9 15 4 5 11 17 
+  Consumption                     : 18 
+--------------------------------------------

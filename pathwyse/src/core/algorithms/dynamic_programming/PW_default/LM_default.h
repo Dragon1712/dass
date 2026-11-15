@@ -2,6 +2,12 @@
 #define LM_DEFAULT_H
 
 #include <set>
+#include <array>
+#include <atomic>
+#include <fstream>
+#include <mutex>
+#include <atomic>
+#include <cstdint>
 #include "algorithms/labels/label_advanced.h"
 #include "data/problem.h"
 
@@ -15,7 +21,7 @@ public:
     /** LM management **/
     //Constructors and destructors
     explicit LMDefault(Problem* problem);
-    ~LMDefault() = default;
+    ~LMDefault();
 
     //Initialization
     void initLM();
@@ -54,6 +60,16 @@ public:
     LabelAdv* getCandidateRR(bool forward, bool backward);
     LabelAdv* getCandidateNode(bool forward, bool backward);
 
+    // VOC_LS_E1_PATCH_V1: experimental, non-pruning label reordering.
+    static constexpr int E1_FEATURES = 7;
+    bool e1TraceEnabled() const { return e1_trace_enabled; }
+    std::array<double, E1_FEATURES> e1Features(LabelAdv* label);
+    void e1Trace(const std::array<double, E1_FEATURES>& features, int attempted, int accepted);
+    LabelAdv* getCandidateLearned(bool forward, bool backward);
+    void e1Setup();
+    double e1Score(LabelAdv* label);
+
+
     /** Label management**/
     //Label extension
     bool isNodeReachable(LabelAdv *label, int next_node);
@@ -65,6 +81,9 @@ public:
     //Label insertion
     LabelAdv* insert(LabelAdv *new_label);
     bool dominates(LabelAdv *l1, LabelAdv *l2);
+    // VOC_E0_PROFILE_PATCH_V1: profiling-only; no learned scorer in B0.
+    void resetE0Profile();
+    void recordE0InferenceNs(std::uint64_t elapsed_ns);
 
     /** Join **/
     void join();
@@ -122,6 +141,11 @@ public:
 
 
 protected:
+    bool dominatesCore(LabelAdv *l1, LabelAdv *l2);
+    bool e0_profile_enabled = false;
+    std::atomic<std::uint64_t> e0_dom_fw{0}, e0_dom_bw{0};
+    std::atomic<std::uint64_t> e0_dom_time_fw_ns{0}, e0_dom_time_bw_ns{0};
+    std::atomic<std::uint64_t> e0_inference_calls{0}, e0_inference_time_ns{0};
 
     std::string name;
     std::string lm_type;
@@ -175,6 +199,22 @@ protected:
     unsigned long long joinComparisons;
     DataCollector collector;
     DataCollector collector_label_fw, collector_label_bw;
+
+    // VOC_LS_E1_PATCH_V1 runtime policy: parsed once from the process environment.
+    bool e1_learned_mode = false;
+    bool e1_trace_enabled = false;
+    int e1_top_k = 8;
+    std::array<double, E1_FEATURES> e1_mean{};
+    std::array<double, E1_FEATURES> e1_scale{};
+    std::array<double, E1_FEATURES> e1_weights{};
+    double e1_bias = 0.0;
+    std::ofstream e1_trace_stream;
+    std::mutex e1_trace_mutex;
+    std::atomic<unsigned long long> e1_candidate_calls{0};
+    std::atomic<unsigned long long> e1_scored_labels{0};
+    std::atomic<unsigned long long> e1_select_ns{0};
+    std::atomic<unsigned long long> e1_trace_rows{0};
+    std::atomic<unsigned long long> e1_reordered_choices{0};
 };
 
 #endif

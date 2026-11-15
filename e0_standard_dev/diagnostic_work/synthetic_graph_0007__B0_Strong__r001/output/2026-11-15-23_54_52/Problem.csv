@@ -1,0 +1,2 @@
+problem_name,nodes,arcs,symmetric,directed,cyclic,nres,nres_complex,origin,destination,obj_lb,obj_ub,r0_lb,r0_ub,arcs_per_node,record_marked
+VOC_SYNTH_20261115107,14,51,-1,1,1,1,0,0,13,-2147483648,2147483647,0,11,3.642857,0

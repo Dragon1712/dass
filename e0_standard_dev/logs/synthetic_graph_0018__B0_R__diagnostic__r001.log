@@ -1,0 +1,29 @@
+# cwd: /home/moco/code/dass/e0_standard_dev/diagnostic_work/synthetic_graph_0018__B0_R__r001
+# command: /home/moco/code/dass/pathwyse/bin/pathwyse /home/moco/code/dass/e0_standard_data/synthetic/n10_graph0018.txt -param /home/moco/code/dass/e0_standard_dev/configs/B0_R_diagnostic.set
+[ PathWyse ver. 1.0]
+--------------------------------------------
+--------------------------------------------
+[ Problem ]
+  Name                            : VOC_SYNTH_20261115118
+  Nodes                           : 10
+  Resources                       : 1
+  Origin                          : 0
+  Destination                     : 9
+  Resource Upper Bounds           : 11 
+--------------------------------------------
+--------------------------------------------
+[ Optimization ]
+  Active algorithms               : 1
+  Parallel mode                   : 0
+  Solutions count                 : 1
+  Problem Status                  : Feasible
+  PWDefault Status                : Optimization complete
+  PWDefault Time                  : 0.000071
+--------------------------------------------
+[ Solution ]
+  Solution Status                 : Optimal
+  Obj                             : 6530.000000
+  Tour Length                     : 2
+  Tour                            : 0 9 
+  Consumption                     : 1 
+--------------------------------------------

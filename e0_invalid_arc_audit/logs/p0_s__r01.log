@@ -1,0 +1,27 @@
+[ PathWyse ver. 1.0]
+--------------------------------------------
+--------------------------------------------
+[ Problem ]
+  Name                            : VOC_SYNTH_20261125001
+  Nodes                           : 24
+  Resources                       : 1
+  Origin                          : 0
+  Destination                     : 23
+  Resource Upper Bounds           : 25 
+--------------------------------------------
+--------------------------------------------
+[ Optimization ]
+  Active algorithms               : 1
+  Parallel mode                   : 0
+  Solutions count                 : 1
+  Problem Status                  : Feasible
+  PWDefault Status                : Optimization complete
+  PWDefault Time                  : 0.084699
+--------------------------------------------
+[ Solution ]
+  Solution Status                 : Optimal
+  Obj                             : -36153.000000
+  Tour Length                     : 16
+  Tour                            : 0 1 9 14 3 13 10 11 12 6 18 19 20 21 22 23 
+  Consumption                     : 25 
+--------------------------------------------

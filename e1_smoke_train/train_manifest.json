@@ -1,0 +1,25 @@
+{
+  "kind": "VOC-LS/E1-TRAIN-TRACE-v1",
+  "source_tree_sha256": "10328bb542b6cd57c44bb168477548d7a39dc802c8bbbefcb573497d77a6a87d",
+  "binary_sha256": "68ac2a511b2ffbf66472af2b3f07dc42921dc1969e21ea0b5c794b1020c7993b",
+  "traces": [
+    {
+      "instance": "instances/spprclib/A-n54-k7-149.sppcc",
+      "instance_sha256": "293847740116b133bb8c075cd43c648f16cd34ba96023cab5594f024b30aa1c9",
+      "profile": "p0_r",
+      "trace_path": "/home/moco/code/dass/e1_smoke_train/traces/train_000_p0_r_293847740116.csv",
+      "trace_sha256": "8264834c60bc26626cae6baf698901ccf0229c131b5df2a2214e022b5bb548ae",
+      "trace_rows": 91674,
+      "objective": -12492.0
+    },
+    {
+      "instance": "instances/spprclib/A-n54-k7-149.sppcc",
+      "instance_sha256": "293847740116b133bb8c075cd43c648f16cd34ba96023cab5594f024b30aa1c9",
+      "profile": "p1_s",
+      "trace_path": "/home/moco/code/dass/e1_smoke_train/traces/train_000_p1_s_293847740116.csv",
+      "trace_sha256": "1abf4bd679f1f5093bab9a0478cf9562288d829fc158dad5edae35bfd4cb662d",
+      "trace_rows": 77370,
+      "objective": -12492.0
+    }
+  ]
+}

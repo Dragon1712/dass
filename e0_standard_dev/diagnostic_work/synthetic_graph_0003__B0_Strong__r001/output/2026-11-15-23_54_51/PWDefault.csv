@@ -1,0 +1,2 @@
+algo_name,algo_type,relaxation,time,global_time,t_labeling,t_labeling_cumulative,t_ext_fw,t_ext_fw_cumulative,t_ext_bw,t_ext_bw_cumulative,t_join,t_join_cumulative,executionID,iterations,lb,ub,algo_status,bidirectional,timeout,use_visited,it_ext_fw,it_ext_bw,neighbourhood_max_size,NGroute_compliant,record_marked
+PWDefault,Exact,DSSR standard,0.000196,0.000196,0.000135,0.000135,0.000021,0.000021,0.000012,0.000012,0.000010,0.000010,1,1,-237500,-237500,2,1,0,1,9,8,0,-1,0

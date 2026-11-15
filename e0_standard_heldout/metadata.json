@@ -1,0 +1,38 @@
+{
+  "experiment": "VOC-LS/E0-standard-v1",
+  "created_utc": "2026-11-15T16:07:41.887753+00:00",
+  "source_tree_sha256": "0e7b938dd0f1c2f92877bc72c6cbdf99b9c464eaf979555c740d042143b4e4fb",
+  "project_root": "/home/moco/code/dass/pathwyse",
+  "manifest": "/home/moco/code/dass/e0_standard_data/manifest.json",
+  "manifest_sha256": "69f493ac957b4cdf55333bfef30027b62ee417a18aa5877102c553c9b83143fc",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "python": "3.11.7",
+  "cmake_version": "/usr/bin/cmake",
+  "compiler_version": "/usr/bin/g++",
+  "profiles": [
+    "B0_R",
+    "B0_Strong"
+  ],
+  "splits": [
+    "test",
+    "ood"
+  ],
+  "phase": "both",
+  "warmups": 1,
+  "timing_repeats": 5,
+  "diagnostic_repeats": 1,
+  "timeout_s": 300,
+  "cpus": null,
+  "source_count": 24,
+  "seed": 20261115,
+  "separate_measurement_and_diagnostic": true,
+  "inference_semantics": "B0 no model: 0 calls and 0 ns; E1 must explicitly instrument model invocation",
+  "progress": "started",
+  "binary_sha256": "68ac2a511b2ffbf66472af2b3f07dc42921dc1969e21ea0b5c794b1020c7993b",
+  "config_sha256": {
+    "B0_R_timing": "d581b2544fd415738b380e9ad3dfab1adc521216319591369bb8221c5953fd9f",
+    "B0_R_diagnostic": "6f6667807bd09dd03e8745c807eefc484e1ec83bdab6cf9da54e819e7d3c6622",
+    "B0_Strong_timing": "0f67b43c11054a061625a155c98a45b58547922820e2cd8fc4fb1dfdb373d446",
+    "B0_Strong_diagnostic": "b3ca32d12fbf886e33d099a6ceee833f9266afdcf19a38f220732864a514e66d"
+  }
+}

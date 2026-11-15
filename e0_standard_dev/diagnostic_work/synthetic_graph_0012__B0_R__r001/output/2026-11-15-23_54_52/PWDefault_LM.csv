@@ -1,0 +1,2 @@
+lm_name,data_structure,candidate_type,join_algo,njoin,executionID,compare_unreachables,use_visited,iterations,ins_attempts_fw,ins_attempts_bw,nlabels_inserted,nfw_inserted,nbw_inserted,ndominated,ndominated_fw,ndominated_bw,nclosed,nclosed_fw,nclosed_bw,e0_dom_checks_fw,e0_dom_checks_bw,e0_dom_time_fw_ns,e0_dom_time_bw_ns,e0_inference_calls,e0_inference_time_ns,split,record_marked
+PWDefault_LM,pqueue,node,ordered (arc),7,1,1,1,1,11,17,27,10,17,1,0,1,26,10,16,11.000000,22.000000,1017.000000,1366.000000,0.000000,0.000000,0.500000,0

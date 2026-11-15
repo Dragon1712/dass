@@ -1,0 +1,22 @@
+{
+  "tag": "VOC_LS_E1_PATCH_V1",
+  "project_root": "/home/moco/code/dass/pathwyse",
+  "files": {
+    "LM_default.h": {
+      "before_sha256": "96900bf3cc7b08da0bfada89eb9bace7349c0e089746a18803060e49589fcc1d",
+      "after_sha256": "73221da12103f9e7f78e08977b101278948c1b005c984fd1eb2c4835701e7d38"
+    },
+    "LM_default.cpp": {
+      "before_sha256": "57e579a6e75a5bc6d70e984bee3546da8b8b904ebfbce18b898ff637b8cd7808",
+      "after_sha256": "ad29f59f59535f12ffbcceda910a999d8e10ad95404be421968afaff455b1b2c"
+    },
+    "PW_default.h": {
+      "before_sha256": "c203d4098d717ff08c2cd205f805d96f844afd406af621af3952271d398fecd9",
+      "after_sha256": "8dff7c6b7f2ff513ead87c4fe4ebe96023bebf8083a8c5bec7ac115725aada17"
+    },
+    "PW_default.cpp": {
+      "before_sha256": "03b990115af4c85c2c8d01f9d261ce94f6da1606185e55c50fee88daa6fc4518",
+      "after_sha256": "3ea1befa0741ec6a3f4a02907a3c60b83528a7692e861fe4568dc88eccea5363"
+    }
+  }
+}

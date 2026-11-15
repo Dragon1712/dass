@@ -1,0 +1,29 @@
+# /home/moco/code/dass/pathwyse/bin/pathwyse /home/moco/code/dass/pathwyse/instances/spprclib/A-n54-k7-149.sppcc -param /home/moco/code/dass/e1_smoke_eval/configs/p0_r.set
+[ PathWyse ver. 1.0]
+--------------------------------------------
+--------------------------------------------
+[ Problem ]
+  Name                            : A-n54-k7
+  Nodes                           : 55
+  Resources                       : 1
+  Origin                          : 0
+  Destination                     : 54
+  Resource Upper Bounds           : 100 
+--------------------------------------------
+--------------------------------------------
+[ Optimization ]
+  Active algorithms               : 1
+  Parallel mode                   : 0
+  Solutions count                 : 1
+  Problem Status                  : Feasible
+  PWDefault Status                : Optimization complete
+  PWDefault Time                  : 1.170797
+--------------------------------------------
+[ Solution ]
+  Solution Status                 : Optimal
+  Obj                             : -12492.000000
+  Tour Length                     : 12
+  Tour                            : 0 6 32 14 27 12 2 24 51 41 34 54 
+  Consumption                     : 100 
+--------------------------------------------
+E1_STATS policy=baseline candidate_calls=91674 scored_labels=0 selector_ns=7579776 trace_rows=0 reordered_choices=0 iterations=15 top_k=8

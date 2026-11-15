@@ -1,0 +1,32 @@
+{
+  "kind": "VOC-LS/E1-collect-v1",
+  "started_utc": "2026-11-15T16:16:31.631666+00:00",
+  "project_root": "/home/moco/code/dass/pathwyse",
+  "source_tree_sha256": "10328bb542b6cd57c44bb168477548d7a39dc802c8bbbefcb573497d77a6a87d",
+  "instance_paths": [
+    "/home/moco/code/dass/pathwyse/instances/spprclib/A-n54-k7-149.sppcc"
+  ],
+  "instance_sha256": {
+    "/home/moco/code/dass/pathwyse/instances/spprclib/A-n54-k7-149.sppcc": "293847740116b133bb8c075cd43c648f16cd34ba96023cab5594f024b30aa1c9"
+  },
+  "profiles": [
+    "p0_r",
+    "p1_s"
+  ],
+  "binary_sha256": "68ac2a511b2ffbf66472af2b3f07dc42921dc1969e21ea0b5c794b1020c7993b",
+  "model_meta": null,
+  "model_sha256": null,
+  "overlap_smoke": false,
+  "top_k": 8,
+  "repeats": 10,
+  "warmups": 2,
+  "python": "3.10.22",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "timing": "monotonic blocking Popen.wait + watchdog",
+  "completed": true,
+  "config_sha256": {
+    "p0_r": "d581b2544fd415738b380e9ad3dfab1adc521216319591369bb8221c5953fd9f",
+    "p1_s": "0f67b43c11054a061625a155c98a45b58547922820e2cd8fc4fb1dfdb373d446"
+  },
+  "finished_utc": "2026-11-15T16:16:34.532632+00:00"
+}

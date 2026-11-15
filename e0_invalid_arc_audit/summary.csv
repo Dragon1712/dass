@@ -1,0 +1,13 @@
+profile,repeat,exit_code,timeout,status,objective,valid,missing_arcs,log
+p0_r,1,0,False,Optimal,-35868.000000,True,[],/home/moco/code/dass/e0_invalid_arc_audit/logs/p0_r__r01.log
+p1_r,1,0,False,Optimal,-35868.000000,True,[],/home/moco/code/dass/e0_invalid_arc_audit/logs/p1_r__r01.log
+p0_s,1,0,False,Optimal,-36153.000000,False,"[{""u"": 14, ""v"": 3, ""reverse_exists"": true, ""reverse_cost"": 3031.0}]",/home/moco/code/dass/e0_invalid_arc_audit/logs/p0_s__r01.log
+p1_s,1,0,False,Optimal,-36153.000000,False,"[{""u"": 14, ""v"": 3, ""reverse_exists"": true, ""reverse_cost"": 3031.0}]",/home/moco/code/dass/e0_invalid_arc_audit/logs/p1_s__r01.log
+p0_r,2,0,False,Optimal,-35868.000000,True,[],/home/moco/code/dass/e0_invalid_arc_audit/logs/p0_r__r02.log
+p1_r,2,0,False,Optimal,-35868.000000,True,[],/home/moco/code/dass/e0_invalid_arc_audit/logs/p1_r__r02.log
+p0_s,2,0,False,Optimal,-36153.000000,False,"[{""u"": 14, ""v"": 3, ""reverse_exists"": true, ""reverse_cost"": 3031.0}]",/home/moco/code/dass/e0_invalid_arc_audit/logs/p0_s__r02.log
+p1_s,2,0,False,Optimal,-36153.000000,False,"[{""u"": 14, ""v"": 3, ""reverse_exists"": true, ""reverse_cost"": 3031.0}]",/home/moco/code/dass/e0_invalid_arc_audit/logs/p1_s__r02.log
+p0_r,3,0,False,Optimal,-35868.000000,True,[],/home/moco/code/dass/e0_invalid_arc_audit/logs/p0_r__r03.log
+p1_r,3,0,False,Optimal,-35868.000000,True,[],/home/moco/code/dass/e0_invalid_arc_audit/logs/p1_r__r03.log
+p0_s,3,0,False,Optimal,-36153.000000,False,"[{""u"": 14, ""v"": 3, ""reverse_exists"": true, ""reverse_cost"": 3031.0}]",/home/moco/code/dass/e0_invalid_arc_audit/logs/p0_s__r03.log
+p1_s,3,0,False,Optimal,-36153.000000,False,"[{""u"": 14, ""v"": 3, ""reverse_exists"": true, ""reverse_cost"": 3031.0}]",/home/moco/code/dass/e0_invalid_arc_audit/logs/p1_s__r03.log

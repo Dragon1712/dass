@@ -92,6 +92,7 @@ void PWDefault::resetIteration(){
     label_manager->setExecutionID(executionID);
     label_manager->setIteration(iterations);
     label_manager->initLM();
+    label_manager->resetE0Profile(); // VOC_E0_PROFILE_PATCH_V1, per-DSSR-round reset
 }
 
 void PWDefault::resetAlgorithm(int reset_level) {
@@ -225,11 +226,20 @@ void PWDefault::labeling(bool forward, bool backward) {
 
         //Get candidate label from label manager
         LabelAdv *candidate = label_manager->getCandidate(forward, backward);
+        if(candidate == nullptr) return;
 
+        // VOC_LS_E1_PATCH_V1: trace is DISABLED during benchmark runs.
+        // Collect the features BEFORE extension (no post-action information leakage).
+        const bool e1_trace = label_manager->e1TraceEnabled();
+        std::array<double, LMDefault::E1_FEATURES> e1_features{};
+        if(e1_trace) e1_features = label_manager->e1Features(candidate);
+        int e1_attempted = 0, e1_accepted = 0;
         //Extend label towards reachable nodes
         collector.startTime(candidate->getDirection() ? "t_ext_fw" : "t_ext_bw");
-        extend(candidate);
+        extend(candidate, e1_trace ? &e1_attempted : nullptr,
+                         e1_trace ? &e1_accepted : nullptr);
         collector.stopTime(candidate->getDirection() ? "t_ext_fw" : "t_ext_bw");
+        if(e1_trace) label_manager->e1Trace(e1_features, e1_attempted, e1_accepted);
         candidate->getDirection() ? it_ext_fw++ : it_ext_bw++;
 
         //Early Join
@@ -251,7 +261,7 @@ void PWDefault::labeling(bool forward, bool backward) {
 }
 
 
-void PWDefault::extend(LabelAdv* candidate) {
+void PWDefault::extend(LabelAdv* candidate, int* e1_attempted, int* e1_accepted) {
     LabelAdv new_label = LabelAdv();
     int node = candidate->getNode();
     bool direction = candidate->getDirection();
@@ -293,7 +303,9 @@ void PWDefault::extend(LabelAdv* candidate) {
 
             if(Parameters::getCollectionLevel()>=1)
                 collector.startTime(direction ? T_INS_FW : T_INS_BW);
-            label_manager->insert(&new_label);
+            if(e1_attempted) ++(*e1_attempted);
+            LabelAdv* inserted_label = label_manager->insert(&new_label);
+            if(e1_accepted && inserted_label) ++(*e1_accepted);
             if(Parameters::getCollectionLevel()>=1)
                 collector.stopTime(direction ? T_INS_FW : T_INS_BW);
         }

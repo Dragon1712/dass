@@ -1,0 +1,71 @@
+{
+  "kind": "VOC-LS/E1-LINEAR-PROXY-v1",
+  "model_path": "/home/moco/code/dass/e1_smoke_model/rank_linear.v1",
+  "model_sha256": "bf697a352431d215a20e70493afd48c6d5056f75c92f61241a59d9536ad0d5aa",
+  "feature_order": [
+    "objective",
+    "critical",
+    "unreachable",
+    "visited",
+    "degree",
+    "node_frac",
+    "direction"
+  ],
+  "target": "accepted_insertions/(attempted_insertions+1)",
+  "train_instances": [
+    {
+      "instance": "instances/spprclib/A-n54-k7-149.sppcc",
+      "profile": "p0_r",
+      "sha256": "293847740116b133bb8c075cd43c648f16cd34ba96023cab5594f024b30aa1c9",
+      "all_labels": 91674,
+      "sampled_labels": 50000,
+      "mean_proxy": 0.05874584752288457
+    },
+    {
+      "instance": "instances/spprclib/A-n54-k7-149.sppcc",
+      "profile": "p1_s",
+      "sha256": "293847740116b133bb8c075cd43c648f16cd34ba96023cab5594f024b30aa1c9",
+      "all_labels": 77370,
+      "sampled_labels": 50000,
+      "mean_proxy": 0.06910136160714
+    }
+  ],
+  "train_instance_sha256": [
+    "293847740116b133bb8c075cd43c648f16cd34ba96023cab5594f024b30aa1c9"
+  ],
+  "trace_manifest": "/home/moco/code/dass/e1_smoke_train/train_manifest.json",
+  "training_source_tree_sha256": "10328bb542b6cd57c44bb168477548d7a39dc802c8bbbefcb573497d77a6a87d",
+  "ridge": 0.01,
+  "max_rows_per_instance": 50000,
+  "train_weighted_mse": 0.018395875853618283,
+  "training_rows": 100000,
+  "means": [
+    831479.9140021361,
+    39.62665000007523,
+    0.9468200000016236,
+    0.9462200000016225,
+    53.99971000017761,
+    0.5185436363647781,
+    0.48106000000126214
+  ],
+  "scales": [
+    1765405.6666787737,
+    13.450602208741778,
+    1.1453697602095236,
+    1.145062317780796,
+    0.017026916925901785,
+    0.2734360027504537,
+    0.49964114762525524
+  ],
+  "weights": [
+    -0.02491086685277323,
+    -0.05044237607898618,
+    -0.003164063098365041,
+    -0.003774359660958118,
+    -0.06108369492047082,
+    -0.0009619228008836943,
+    -0.00027411879431519425
+  ],
+  "bias": 0.06482195675454533,
+  "limitations": "Immediate expansion proxy; not a VOC prediction or guarantee of runtime gain. Held-out evaluation must be instance-disjoint."
+}

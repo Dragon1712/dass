@@ -1,0 +1,4 @@
+tour,executionID,iterations,elementary,solution_status,objective,tour_length,r0_consumption,record_marked
+0 5 2 3 4 5 2 3 4 5 14 15 16 17 ,1,1,0,1,-2740100,14,15,0
+0 1 2 3 4 5 14 13 16 14 15 16 17 ,1,2,0,1,-2372400,13,15,0
+0 1 2 3 4 5 12 13 14 15 16 17 ,1,3,1,2,-2320900,12,14,0
