@@ -1,0 +1,16 @@
+lm_name,data_structure,candidate_type,join_algo,njoin,executionID,compare_unreachables,use_visited,iterations,ins_attempts_fw,ins_attempts_bw,nlabels_inserted,nfw_inserted,nbw_inserted,ndominated,ndominated_fw,ndominated_bw,nclosed,nclosed_fw,nclosed_bw,split,record_marked
+PWDefault_LM,pqueue,node,ordered (arc),1108,1,1,1,1,32062,50777,6654,2664,3990,3450,1340,2110,3204,1324,1880,0.500000,0
+PWDefault_LM,pqueue,node,ordered (arc),8746,1,1,1,2,41227,43382,6832,3260,3572,3520,1662,1858,3312,1598,1714,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),10633,1,1,1,3,44932,47363,7137,3405,3732,3537,1668,1869,3600,1737,1863,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),12520,1,1,1,4,51073,54367,7666,3648,4018,3662,1717,1945,4004,1931,2073,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),14521,1,1,1,5,53069,56135,7949,3787,4162,3780,1776,2004,4169,2011,2158,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),15535,1,1,1,6,54180,56977,8137,3867,4270,3858,1806,2052,4279,2061,2218,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),15920,1,1,1,7,55343,58310,8193,3894,4299,3842,1796,2046,4351,2098,2253,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),16217,1,1,1,8,56056,59079,8236,3912,4324,3840,1793,2047,4396,2119,2277,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),17123,1,1,1,9,56395,59443,8354,3968,4386,3883,1814,2069,4471,2154,2317,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),17015,1,1,1,10,59269,62366,8741,4182,4559,4077,1920,2157,4664,2262,2402,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),19067,1,1,1,11,59924,62988,8869,4230,4639,4147,1949,2198,4722,2281,2441,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),20008,1,1,1,12,62177,65476,9062,4325,4737,4241,1996,2245,4821,2329,2492,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),25388,1,1,1,13,64942,68397,9524,4537,4987,4450,2094,2356,5074,2443,2631,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),26820,1,1,1,14,66230,69631,9743,4645,5098,4526,2136,2390,5217,2509,2708,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),29175,1,1,1,15,69467,73186,10142,4863,5279,4647,2199,2448,5495,2664,2831,0.550000,0

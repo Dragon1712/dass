@@ -1,0 +1,63 @@
+# command: /home/moco/code/dass/pathwyse/bin/pathwyse /home/moco/code/dass/pathwyse/instances/spprclib/A-n54-k7-149.sppcc -param /home/moco/code/dass/e05_results/configs/p1_s_diagnostic.set -tag p1_s
+# cwd: /home/moco/code/dass/e05_results/diagnostic_cwd/A-n54-k7-149_p1_s
+[ PathWyse ver. 1.0]
+--------------------------------------------
+Reading problem data: /home/moco/code/dass/pathwyse/instances/spprclib/A-n54-k7-149.sppcc
+Warning: Symmetric not set, assuming asymmetric network
+Warning: Duplicating depot node. Destination is now: 54
+Reading problem data complete
+--------------------------------------------
+[ Problem ]
+  Name                            : A-n54-k7
+  Nodes                           : 55
+  Resources                       : 1
+  Origin                          : 0
+  Destination                     : 54
+  Resource Upper Bounds           : 100 
+--------------------------------------------
+Solving problem...
+Solving complete
+--------------------------------------------
+[ Optimization ]
+  Active algorithms               : 1
+  Parallel mode                   : 0
+  Solutions count                 : 1
+  Problem Status                  : Feasible
+  PWDefault Status                : Optimization complete
+  PWDefault Time                  : 0.716521
+--------------------------------------------
+[ Data Collection ]
+  Collection                      : PWDefault
+  algo_name                       : PWDefault
+  algo_type                       : Exact
+  relaxation                      : DSSR standard
+  time                            : 0.126618
+  Global_time                     : 0.716521
+  t_labeling                      : 0.115679
+  t_labeling_cumul.               : 0.656937
+  t_ext_fw                        : 0.110587
+  t_ext_fw_cumul.                 : 0.572679
+  t_ext_bw                        : 0.113874
+  t_ext_bw_cumul.                 : 0.641777
+  t_join                          : 0.010862
+  t_join_cumul.                   : 0.046973
+  executionID                     : 1
+  iterations                      : 9
+  lb                              : -1249200
+  ub                              : -1249200
+  algo_status                     : 2
+  bidirectional                   : 1
+  timeout                         : 0
+  use_visited                     : 1
+  it_ext_fw                       : 6829
+  it_ext_bw                       : 6893
+  neighbourhood_max_size          : 19
+  NGroute_compliant               : -1
+--------------------------------------------
+[ Solution ]
+  Solution Status                 : Optimal
+  Obj                             : -12492.000000
+  Tour Length                     : 12
+  Tour                            : 0 6 32 14 27 12 2 24 51 41 34 54 
+  Consumption                     : 100 
+--------------------------------------------

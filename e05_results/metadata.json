@@ -1,0 +1,41 @@
+{
+  "experiment": "VOC-LS/E0.5",
+  "started_utc": "2026-11-15T14:56:37.947532+00:00",
+  "repo": "/home/moco/code/dass/pathwyse",
+  "git_commit_local_only": "e3bf8477de8ff7a9a777a8c980b81330f5d1ec6f",
+  "source_tree_sha256": "fdd741d52169406023c62c29d3571cf7ce0af549253a0aa94e7a5fa7fc0b4916",
+  "source_settings_sha256": "8921817185ee3c9f51c57ca5318ce4294142892157442a512016128116fe7095",
+  "cmake": "cmake version 3.28.3",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "python": "3.10.22",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "cpu_affinity": null,
+  "allowed_cpus_count": 24,
+  "repeats": 10,
+  "warmups": 2,
+  "seed": 20261115,
+  "timeout_s": 300,
+  "instances": {
+    "/home/moco/code/dass/pathwyse/instances/spprclib/A-n54-k7-149.sppcc": "293847740116b133bb8c075cd43c648f16cd34ba96023cab5594f024b30aa1c9"
+  },
+  "completed": true,
+  "binary_sha256": "68ac2a511b2ffbf66472af2b3f07dc42921dc1969e21ea0b5c794b1020c7993b",
+  "configs_sha256": {
+    "p0_r": "d581b2544fd415738b380e9ad3dfab1adc521216319591369bb8221c5953fd9f",
+    "p1_r": "dabe12866329ab52a81b19b701c756331b300310d85b854faad24dff157b0ce3",
+    "p0_s": "4eff6c26876e26a87ff77e309b3073338bfc50928add621c8941ad3e543c6a56",
+    "p1_s": "0f67b43c11054a061625a155c98a45b58547922820e2cd8fc4fb1dfdb373d446",
+    "p1_s_auto": "0f67b43c11054a061625a155c98a45b58547922820e2cd8fc4fb1dfdb373d446",
+    "p0_r_collect": "d1d1b873006fc7cf90f5f03ccd9050a09e0df2b681ebc5809cdc8e0a43cf324c",
+    "stock": "572eb25c59328d08d489b133d2c48210c8bc102f60a9d1124a986244ad1a47c5"
+  },
+  "completed_utc": "2026-11-15T14:58:08.714669+00:00",
+  "all_passed": true,
+  "objective_checks": {
+    "instances/spprclib/A-n54-k7-149.sppcc": {
+      "all_objectives_equal": true,
+      "objective": -12492.0
+    }
+  },
+  "measurement_count": 70
+}

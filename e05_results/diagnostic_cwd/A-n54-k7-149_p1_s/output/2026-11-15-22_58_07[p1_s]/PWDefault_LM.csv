@@ -1,0 +1,10 @@
+lm_name,data_structure,candidate_type,join_algo,njoin,executionID,compare_unreachables,use_visited,iterations,ins_attempts_fw,ins_attempts_bw,nlabels_inserted,nfw_inserted,nbw_inserted,ndominated,ndominated_fw,ndominated_bw,nclosed,nclosed_fw,nclosed_bw,split,record_marked
+PWDefault_LM,pqueue,node,ordered (arc),1108,1,1,1,1,32062,50777,6654,2664,3990,3450,1340,2110,3204,1324,1880,0.500000,0
+PWDefault_LM,pqueue,node,ordered (arc),11071,1,1,1,2,47393,49654,7536,3617,3919,3742,1780,1962,3794,1837,1957,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),19338,1,1,1,3,53458,55363,8807,4207,4600,4383,2075,2308,4424,2132,2292,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),21332,1,1,1,4,55370,57169,9244,4418,4826,4517,2135,2382,4727,2283,2444,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),24218,1,1,1,5,58885,60638,9686,4647,5039,4482,2122,2360,5204,2525,2679,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),35668,1,1,1,6,66945,68079,11242,5458,5784,4621,2205,2416,6621,3253,3368,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),41260,1,1,1,7,88142,89629,15818,7938,7880,6941,3496,3445,8877,4442,4435,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),49477,1,1,1,8,94791,96289,16841,8417,8424,7410,3708,3702,9431,4709,4722,0.550000,0
+PWDefault_LM,pqueue,node,ordered (arc),54534,1,1,1,9,98897,100181,17615,8789,8826,7347,3674,3673,10268,5115,5153,0.550000,0

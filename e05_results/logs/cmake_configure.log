@@ -1,0 +1,5 @@
+# command: cmake -S /home/moco/code/dass/pathwyse -B /home/moco/code/dass/pathwyse/build -DCMAKE_BUILD_TYPE=Release
+# cwd: /home/moco/code/dass/pathwyse
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/moco/code/dass/pathwyse/build

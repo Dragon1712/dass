@@ -1,0 +1,4 @@
+# command: cmake --build /home/moco/code/dass/pathwyse/build -j 8
+# cwd: /home/moco/code/dass/pathwyse
+[ 92%] Built target pathwyse_core
+[100%] Built target pathwyse
