@@ -1,0 +1,26 @@
+[timing] spprclib_smoke B0_R 1/5: Optimal obj=-12492.0 wall=1.404019s
+[timing] spprclib_smoke B0_Strong 1/5: Optimal obj=-12492.0 wall=0.826238s
+[timing] spprclib_smoke B0_Strong 2/5: Optimal obj=-12492.0 wall=0.842571s
+[timing] spprclib_smoke B0_R 2/5: Optimal obj=-12492.0 wall=1.429700s
+[timing] spprclib_smoke B0_R 3/5: Optimal obj=-12492.0 wall=1.258384s
+[timing] spprclib_smoke B0_Strong 3/5: Optimal obj=-12492.0 wall=0.822067s
+[timing] spprclib_smoke B0_Strong 4/5: Optimal obj=-12492.0 wall=0.834921s
+[timing] spprclib_smoke B0_R 4/5: Optimal obj=-12492.0 wall=1.625959s
+[timing] spprclib_smoke B0_R 5/5: Optimal obj=-12492.0 wall=1.226248s
+[timing] spprclib_smoke B0_Strong 5/5: Optimal obj=-12492.0 wall=0.826227s
+[diagnostic] spprclib_smoke B0_Strong 1/1: Optimal obj=-12492.0 wall=2.803209s
+[diagnostic] spprclib_smoke B0_R 1/1: Optimal obj=-12492.0 wall=2.490161s
+[timing] toy_smoke B0_R 1/5: Optimal obj=-10435.0 wall=0.001760s
+[timing] toy_smoke B0_Strong 1/5: Optimal obj=-10435.0 wall=0.002278s
+[timing] toy_smoke B0_Strong 2/5: Optimal obj=-10435.0 wall=0.002242s
+[timing] toy_smoke B0_R 2/5: Optimal obj=-10435.0 wall=0.001956s
+[timing] toy_smoke B0_Strong 3/5: Optimal obj=-10435.0 wall=0.002328s
+[timing] toy_smoke B0_R 3/5: Optimal obj=-10435.0 wall=0.002418s
+[timing] toy_smoke B0_Strong 4/5: Optimal obj=-10435.0 wall=0.002308s
+[timing] toy_smoke B0_R 4/5: Optimal obj=-10435.0 wall=0.002105s
+[timing] toy_smoke B0_Strong 5/5: Optimal obj=-10435.0 wall=0.002386s
+[timing] toy_smoke B0_R 5/5: Optimal obj=-10435.0 wall=0.002002s
+[diagnostic] toy_smoke B0_Strong 1/1: Optimal obj=-10435.0 wall=0.002717s
+[diagnostic] toy_smoke B0_R 1/1: Optimal obj=-10435.0 wall=0.002331s
+
+E0 STANDARD PASS; outputs: /home/moco/code/dass/e0_standard_smoke

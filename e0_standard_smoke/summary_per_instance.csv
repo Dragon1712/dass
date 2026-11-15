@@ -1,0 +1,5 @@
+instance_id,group,source,split,profile,successful_runs,total_runs,median_wall_s,mean_wall_s,p95_wall_s,sd_wall_s,median_solver_s,objective,extensions_total_diagnostic,dom_checks_diagnostic,inference_calls_diagnostic,inference_time_ns_diagnostic,speedup_over_B0_R
+spprclib_smoke,real_A-n54-k7,spprclib,smoke,B0_R,5,5,1.40401881,1.388861819,1.5867068638,0.15935823717709743,1.398794,-12492.0,91674,22723681,0,0,1.0
+spprclib_smoke,real_A-n54-k7,spprclib,smoke,B0_Strong,5,5,0.826237875,0.8304047074,0.8410406174,0.008257271425750978,0.818429,-12492.0,77370,26719273,0,0,1.6992912725043015
+toy_smoke,toy_original,toy,smoke,B0_R,5,5,0.002001947,0.0020482482,0.0023550828,0.00024141113482128372,5.5e-05,-10435.0,9,3,0,0,1.0
+toy_smoke,toy_original,toy,smoke,B0_Strong,5,5,0.00230799,0.0023083898,0.002374656,5.441777827328124e-05,0.000232,-10435.0,9,3,0,0,0.8673984722637446

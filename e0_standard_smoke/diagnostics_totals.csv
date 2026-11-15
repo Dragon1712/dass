@@ -1,0 +1,5 @@
+instance_id,group,source,split,profile,repeat,iterations,extensions_total,dom_checks_total,dom_probe_time_ns,inference_calls,inference_time_ns,nlabels_inserted_sum,ndominated_sum,nclosed_sum,ins_attempts_sum,njoin_sum,diagnostic_wall_s
+spprclib_smoke,real_A-n54-k7,spprclib,smoke,B0_Strong,1,9,77370,26719273,1064952450,0,0,103443,46893,56550,1223722,258006,2.803208758
+spprclib_smoke,real_A-n54-k7,spprclib,smoke,B0_R,1,15,91674,22723681,719946406,0,0,125239,59460,65779,1714223,249796,2.490161048
+toy_smoke,toy_original,toy,smoke,B0_Strong,1,1,9,3,2947,0,0,9,0,9,9,4,0.002717325
+toy_smoke,toy_original,toy,smoke,B0_R,1,1,9,3,1007,0,0,9,0,9,9,4,0.002331307

@@ -1,0 +1,92 @@
+{
+  "experiment": "VOC-LS/E0.5-fixed-v2",
+  "timing_method": "blocking_Popen_wait_with_thread_watchdog_perf_counter_ns",
+  "started_utc": "2026-11-15T15:22:21.615777+00:00",
+  "repo": "/home/moco/code/dass/pathwyse",
+  "git_commit_local_only": "e3bf8477de8ff7a9a777a8c980b81330f5d1ec6f",
+  "source_tree_sha256": "fdd741d52169406023c62c29d3571cf7ce0af549253a0aa94e7a5fa7fc0b4916",
+  "source_settings_sha256": "8921817185ee3c9f51c57ca5318ce4294142892157442a512016128116fe7095",
+  "cmake": "cmake version 3.28.3",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "python": "3.11.7",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "cpu_affinity": null,
+  "allowed_cpus_count": 24,
+  "repeats": 10,
+  "warmups": 2,
+  "seed": 20261115,
+  "requested_profiles": "p0_r,p1_r,p0_s,p1_s",
+  "timeout_s": 300,
+  "instances": {
+    "/home/moco/code/dass/pathwyse/instances/spprclib/A-n54-k7-149.sppcc": "293847740116b133bb8c075cd43c648f16cd34ba96023cab5594f024b30aa1c9"
+  },
+  "completed": true,
+  "config_validation": {
+    "all_valid": true,
+    "checks": [
+      {
+        "first": "p0_r",
+        "second": "p1_r",
+        "changed_only": "algo/default/parallel",
+        "values": [
+          "0",
+          "1"
+        ],
+        "verified": true
+      },
+      {
+        "first": "p0_s",
+        "second": "p1_s",
+        "changed_only": "algo/default/parallel",
+        "values": [
+          "0",
+          "1"
+        ],
+        "verified": true
+      },
+      {
+        "first": "p0_r",
+        "second": "p0_s",
+        "changed_only": "algo/default/dssr",
+        "values": [
+          "restricted",
+          "standard"
+        ],
+        "verified": true
+      },
+      {
+        "first": "p1_r",
+        "second": "p1_s",
+        "changed_only": "algo/default/dssr",
+        "values": [
+          "restricted",
+          "standard"
+        ],
+        "verified": true
+      }
+    ]
+  },
+  "configs_sha256": {
+    "p0_r": "d581b2544fd415738b380e9ad3dfab1adc521216319591369bb8221c5953fd9f",
+    "p1_r": "dabe12866329ab52a81b19b701c756331b300310d85b854faad24dff157b0ce3",
+    "p0_s": "4eff6c26876e26a87ff77e309b3073338bfc50928add621c8941ad3e543c6a56",
+    "p1_s": "0f67b43c11054a061625a155c98a45b58547922820e2cd8fc4fb1dfdb373d446"
+  },
+  "selected_profiles": [
+    "p0_r",
+    "p1_r",
+    "p0_s",
+    "p1_s"
+  ],
+  "binary_sha256": "68ac2a511b2ffbf66472af2b3f07dc42921dc1969e21ea0b5c794b1020c7993b",
+  "completed_utc": "2026-11-15T15:23:12.943917+00:00",
+  "all_passed": true,
+  "objective_checks": {
+    "instances/spprclib/A-n54-k7-149.sppcc": {
+      "all_objectives_equal": true,
+      "objective": -12492.0
+    }
+  },
+  "measurement_count": 40,
+  "timer_precision_note": "wall_s uses monotonic perf_counter_ns and blocking wait; OS scheduling noise remains"
+}

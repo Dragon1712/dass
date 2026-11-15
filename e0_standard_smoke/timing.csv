@@ -1,0 +1,21 @@
+instance_id,group,source,split,profile,phase,repeat,status,objective,tour,consumption,wall_s,wall_ns,solver_s,model_used,inference_calls,inference_time_ns,exit_code,timed_out,log_path
+spprclib_smoke,real_A-n54-k7,spprclib,smoke,B0_R,timing,1,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,1.40401881,1404018810,1.398794,False,0,0,0,False,logs/spprclib_smoke__B0_R__timing__r001.log
+spprclib_smoke,real_A-n54-k7,spprclib,smoke,B0_Strong,timing,1,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,0.826237875,826237875,0.816081,False,0,0,0,False,logs/spprclib_smoke__B0_Strong__timing__r001.log
+spprclib_smoke,real_A-n54-k7,spprclib,smoke,B0_Strong,timing,2,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,0.842570625,842570625,0.833853,False,0,0,0,False,logs/spprclib_smoke__B0_Strong__timing__r002.log
+spprclib_smoke,real_A-n54-k7,spprclib,smoke,B0_R,timing,2,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,1.429700083,1429700083,1.424174,False,0,0,0,False,logs/spprclib_smoke__B0_R__timing__r002.log
+spprclib_smoke,real_A-n54-k7,spprclib,smoke,B0_R,timing,3,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,1.258383957,1258383957,1.254114,False,0,0,0,False,logs/spprclib_smoke__B0_R__timing__r003.log
+spprclib_smoke,real_A-n54-k7,spprclib,smoke,B0_Strong,timing,3,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,0.822067232,822067232,0.813173,False,0,0,0,False,logs/spprclib_smoke__B0_Strong__timing__r003.log
+spprclib_smoke,real_A-n54-k7,spprclib,smoke,B0_Strong,timing,4,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,0.834920587,834920587,0.826162,False,0,0,0,False,logs/spprclib_smoke__B0_Strong__timing__r004.log
+spprclib_smoke,real_A-n54-k7,spprclib,smoke,B0_R,timing,4,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,1.625958559,1625958559,1.620432,False,0,0,0,False,logs/spprclib_smoke__B0_R__timing__r004.log
+spprclib_smoke,real_A-n54-k7,spprclib,smoke,B0_R,timing,5,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,1.226247686,1226247686,1.220963,False,0,0,0,False,logs/spprclib_smoke__B0_R__timing__r005.log
+spprclib_smoke,real_A-n54-k7,spprclib,smoke,B0_Strong,timing,5,Optimal,-12492.0,0 6 32 14 27 12 2 24 51 41 34 54,100,0.826227218,826227218,0.818429,False,0,0,0,False,logs/spprclib_smoke__B0_Strong__timing__r005.log
+toy_smoke,toy_original,toy,smoke,B0_R,timing,1,Optimal,-10435.0,0 2 1 4,9,0.001760388,1760388,4.5e-05,False,0,0,0,False,logs/toy_smoke__B0_R__timing__r001.log
+toy_smoke,toy_original,toy,smoke,B0_Strong,timing,1,Optimal,-10435.0,0 2 1 4,9,0.002277896,2277896,0.000177,False,0,0,0,False,logs/toy_smoke__B0_Strong__timing__r001.log
+toy_smoke,toy_original,toy,smoke,B0_Strong,timing,2,Optimal,-10435.0,0 2 1 4,9,0.002241626,2241626,0.000149,False,0,0,0,False,logs/toy_smoke__B0_Strong__timing__r002.log
+toy_smoke,toy_original,toy,smoke,B0_R,timing,2,Optimal,-10435.0,0 2 1 4,9,0.001956169,1956169,5.7e-05,False,0,0,0,False,logs/toy_smoke__B0_R__timing__r002.log
+toy_smoke,toy_original,toy,smoke,B0_Strong,timing,3,Optimal,-10435.0,0 2 1 4,9,0.002328156,2328156,0.000233,False,0,0,0,False,logs/toy_smoke__B0_Strong__timing__r003.log
+toy_smoke,toy_original,toy,smoke,B0_R,timing,3,Optimal,-10435.0,0 2 1 4,9,0.002417559,2417559,5.7e-05,False,0,0,0,False,logs/toy_smoke__B0_R__timing__r003.log
+toy_smoke,toy_original,toy,smoke,B0_Strong,timing,4,Optimal,-10435.0,0 2 1 4,9,0.00230799,2307990,0.000232,False,0,0,0,False,logs/toy_smoke__B0_Strong__timing__r004.log
+toy_smoke,toy_original,toy,smoke,B0_R,timing,4,Optimal,-10435.0,0 2 1 4,9,0.002105178,2105178,5.5e-05,False,0,0,0,False,logs/toy_smoke__B0_R__timing__r004.log
+toy_smoke,toy_original,toy,smoke,B0_Strong,timing,5,Optimal,-10435.0,0 2 1 4,9,0.002386281,2386281,0.000311,False,0,0,0,False,logs/toy_smoke__B0_Strong__timing__r005.log
+toy_smoke,toy_original,toy,smoke,B0_R,timing,5,Optimal,-10435.0,0 2 1 4,9,0.002001947,2001947,5.5e-05,False,0,0,0,False,logs/toy_smoke__B0_R__timing__r005.log

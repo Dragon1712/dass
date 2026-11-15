@@ -1,0 +1,121 @@
+{
+  "warning": "Unit of inference is independent problem/graph, not repeated process runs; synthetic and real kept separate.",
+  "report": [
+    {
+      "split": "smoke",
+      "source": "spprclib",
+      "profile": "B0_R",
+      "n_independent_graph_groups": 1,
+      "n_query_instances": 1,
+      "all_repeats_successful_instances": 1,
+      "per_instance_median_wall_s": {
+        "n": 1,
+        "mean": 1.40401881,
+        "median": 1.40401881,
+        "mean_bootstrap_95_ci": [
+          1.40401881,
+          1.40401881
+        ],
+        "p95_across_instances": 1.40401881
+      },
+      "speedup_over_B0_R": {
+        "n": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "mean_bootstrap_95_ci": [
+          1.0,
+          1.0
+        ],
+        "p95_across_instances": 1.0
+      },
+      "geomean_speedup": 1.0
+    },
+    {
+      "split": "smoke",
+      "source": "spprclib",
+      "profile": "B0_Strong",
+      "n_independent_graph_groups": 1,
+      "n_query_instances": 1,
+      "all_repeats_successful_instances": 1,
+      "per_instance_median_wall_s": {
+        "n": 1,
+        "mean": 0.826237875,
+        "median": 0.826237875,
+        "mean_bootstrap_95_ci": [
+          0.826237875,
+          0.826237875
+        ],
+        "p95_across_instances": 0.826237875
+      },
+      "speedup_over_B0_R": {
+        "n": 1,
+        "mean": 1.6992912725043015,
+        "median": 1.6992912725043015,
+        "mean_bootstrap_95_ci": [
+          1.6992912725043015,
+          1.6992912725043015
+        ],
+        "p95_across_instances": 1.6992912725043015
+      },
+      "geomean_speedup": 1.6992912725043015
+    },
+    {
+      "split": "smoke",
+      "source": "toy",
+      "profile": "B0_R",
+      "n_independent_graph_groups": 1,
+      "n_query_instances": 1,
+      "all_repeats_successful_instances": 1,
+      "per_instance_median_wall_s": {
+        "n": 1,
+        "mean": 0.002001947,
+        "median": 0.002001947,
+        "mean_bootstrap_95_ci": [
+          0.002001947,
+          0.002001947
+        ],
+        "p95_across_instances": 0.002001947
+      },
+      "speedup_over_B0_R": {
+        "n": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "mean_bootstrap_95_ci": [
+          1.0,
+          1.0
+        ],
+        "p95_across_instances": 1.0
+      },
+      "geomean_speedup": 1.0
+    },
+    {
+      "split": "smoke",
+      "source": "toy",
+      "profile": "B0_Strong",
+      "n_independent_graph_groups": 1,
+      "n_query_instances": 1,
+      "all_repeats_successful_instances": 1,
+      "per_instance_median_wall_s": {
+        "n": 1,
+        "mean": 0.00230799,
+        "median": 0.00230799,
+        "mean_bootstrap_95_ci": [
+          0.00230799,
+          0.00230799
+        ],
+        "p95_across_instances": 0.00230799
+      },
+      "speedup_over_B0_R": {
+        "n": 1,
+        "mean": 0.8673984722637446,
+        "median": 0.8673984722637446,
+        "mean_bootstrap_95_ci": [
+          0.8673984722637446,
+          0.8673984722637446
+        ],
+        "p95_across_instances": 0.8673984722637446
+      },
+      "geomean_speedup": 0.8673984722637446
+    }
+  ]
+}
