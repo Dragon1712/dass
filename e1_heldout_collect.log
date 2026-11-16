@@ -1,0 +1,429 @@
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/4f175f9660cee6a1_A-n54-k7-149.txt --out /home/moco/code/dass/e1_heldout_v1/collect/4f175f9660cee6a1_A-n54-k7-149 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/4f175f9660cee6a1_A-n54-k7-149.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/A-n54-k7-149.sppcc', 'instance_sha256': '4f175f9660cee6a17ec166de0da5775fb76b47118aded361342445924de3ea85', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.002846194, 'wall_ns': 2846194, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/c049dacef1_A-n54-k7-149__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/82136fc9d1a87803_A-n62-k8-99.txt --out /home/moco/code/dass/e1_heldout_v1/collect/82136fc9d1a87803_A-n62-k8-99 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/82136fc9d1a87803_A-n62-k8-99.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/A-n62-k8-99.sppcc', 'instance_sha256': '82136fc9d1a87803835158a2065a4d07821fe4a7f84063a3d10adcfc845e2274', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.002767123, 'wall_ns': 2767123, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/82803bdaa7_A-n62-k8-99__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/e80a4831383064dc_A-n63-k9-157.txt --out /home/moco/code/dass/e1_heldout_v1/collect/e80a4831383064dc_A-n63-k9-157 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/e80a4831383064dc_A-n63-k9-157.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/A-n63-k9-157.sppcc', 'instance_sha256': 'e80a4831383064dc56cc9d698be40770473566c689040c9b731179fad2b77b5e', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.002873454, 'wall_ns': 2873454, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/a63c2a2353_A-n63-k9-157__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/86c341ad1bbc8767_A-n65-k9-10.txt --out /home/moco/code/dass/e1_heldout_v1/collect/86c341ad1bbc8767_A-n65-k9-10 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/86c341ad1bbc8767_A-n65-k9-10.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/A-n65-k9-10.sppcc', 'instance_sha256': '86c341ad1bbc8767728ce99df4058e287ddebee4d2ad1192277c987f78fed382', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.00285292, 'wall_ns': 2852920, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/fc47d459a2_A-n65-k9-10__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/f8de772fa0708414_A-n69-k9-42.txt --out /home/moco/code/dass/e1_heldout_v1/collect/f8de772fa0708414_A-n69-k9-42 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/f8de772fa0708414_A-n69-k9-42.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/A-n69-k9-42.sppcc', 'instance_sha256': 'f8de772fa0708414ac7f42cf221a1ac74a9b978ed4635613a7f4f2d0b8e10cb9', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.003292077, 'wall_ns': 3292077, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/4d1bd8d2d8_A-n69-k9-42__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/872e90ff583c5b99_B-n57-k7-20.txt --out /home/moco/code/dass/e1_heldout_v1/collect/872e90ff583c5b99_B-n57-k7-20 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/872e90ff583c5b99_B-n57-k7-20.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/B-n57-k7-20.sppcc', 'instance_sha256': '872e90ff583c5b9932cd42a321476d3347a1b9e3556c1cc034c7c6913760bbca', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.002714949, 'wall_ns': 2714949, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/706fac1830_B-n57-k7-20__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/2a4bf3178529995b_B-n66-k9-50.txt --out /home/moco/code/dass/e1_heldout_v1/collect/2a4bf3178529995b_B-n66-k9-50 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/2a4bf3178529995b_B-n66-k9-50.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/B-n66-k9-50.sppcc', 'instance_sha256': '2a4bf3178529995b84e9e83fd2bb7cc13b7dd7b2beb4b4aa95e8ea4ce372f387', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.003180911, 'wall_ns': 3180911, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/2aac193725_B-n66-k9-50__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/a46322319cc855f2_B-n68-k9-65.txt --out /home/moco/code/dass/e1_heldout_v1/collect/a46322319cc855f2_B-n68-k9-65 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/a46322319cc855f2_B-n68-k9-65.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/B-n68-k9-65.sppcc', 'instance_sha256': 'a46322319cc855f2612a8cd2bc221b26df4941a986c5e67e02bb87d4078842d8', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.002857115, 'wall_ns': 2857115, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/cdb5aa4636_B-n68-k9-65__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/9c1466e6d0da0328_E-n101-k14-158.txt --out /home/moco/code/dass/e1_heldout_v1/collect/9c1466e6d0da0328_E-n101-k14-158 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/9c1466e6d0da0328_E-n101-k14-158.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/E-n101-k14-158.sppcc', 'instance_sha256': '9c1466e6d0da0328008ab799d1812b21e45884e60a5e94638e3f23e4bf1e5555', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.003536754, 'wall_ns': 3536754, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/20f9a26de5_E-n101-k14-158__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/5de22f610813b674_E-n76-k10-72.txt --out /home/moco/code/dass/e1_heldout_v1/collect/5de22f610813b674_E-n76-k10-72 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/5de22f610813b674_E-n76-k10-72.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/E-n76-k10-72.sppcc', 'instance_sha256': '5de22f610813b674217b5c77254bb8b691a24050dd3caf224729192d3a65dd8d', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.003252371, 'wall_ns': 3252371, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/b4b68a1b61_E-n76-k10-72__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/317cb5efafd41715_E-n76-k14-102.txt --out /home/moco/code/dass/e1_heldout_v1/collect/317cb5efafd41715_E-n76-k14-102 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/317cb5efafd41715_E-n76-k14-102.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/E-n76-k14-102.sppcc', 'instance_sha256': '317cb5efafd41715479278b364f2f966fc5f0454ec89e6e14425bb1ceb4da5d2', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.002890754, 'wall_ns': 2890754, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/46b83b6e3a_E-n76-k14-102__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/155f3aabda41f8b5_E-n76-k7-44.txt --out /home/moco/code/dass/e1_heldout_v1/collect/155f3aabda41f8b5_E-n76-k7-44 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/155f3aabda41f8b5_E-n76-k7-44.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/E-n76-k7-44.sppcc', 'instance_sha256': '155f3aabda41f8b5976ac9aaec092fcf48266c631d9a71f2d7031a42ccecf0d9', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.003225479, 'wall_ns': 3225479, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/20fd1b9ee9_E-n76-k7-44__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/d4701001ad6e93c3_G-n262-k25-316.txt --out /home/moco/code/dass/e1_heldout_v1/collect/d4701001ad6e93c3_G-n262-k25-316 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/d4701001ad6e93c3_G-n262-k25-316.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/G-n262-k25-316.sppcc', 'instance_sha256': 'd4701001ad6e93c3014e258fd7fccb2211c63809d501c43c571a118bfed2d4f4', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.007718479, 'wall_ns': 7718479, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/a63821bafe_G-n262-k25-316__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/4e33b52578176e5f_M-n101-k10-97.txt --out /home/moco/code/dass/e1_heldout_v1/collect/4e33b52578176e5f_M-n101-k10-97 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/4e33b52578176e5f_M-n101-k10-97.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/M-n101-k10-97.sppcc', 'instance_sha256': '4e33b52578176e5fd720f8fad4a654f3cd2ec4ceaaf3ccc9f0622b0ba19d08a0', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.003523796, 'wall_ns': 3523796, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/0d40b160e1_M-n101-k10-97__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/49510b512bc4d970_M-n121-k7-260.txt --out /home/moco/code/dass/e1_heldout_v1/collect/49510b512bc4d970_M-n121-k7-260 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/49510b512bc4d970_M-n121-k7-260.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/M-n121-k7-260.sppcc', 'instance_sha256': '49510b512bc4d97082e61cd893350238733c145d59407075679645d8069671ef', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.003729999, 'wall_ns': 3729999, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/f616350e31_M-n121-k7-260__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/acb945b9e14899af_M-n151-k12-15.txt --out /home/moco/code/dass/e1_heldout_v1/collect/acb945b9e14899af_M-n151-k12-15 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/acb945b9e14899af_M-n151-k12-15.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/M-n151-k12-15.sppcc', 'instance_sha256': 'acb945b9e14899af76296412361559419b2ab4b5cddbd65a7834be8a39e196cc', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.004077824, 'wall_ns': 4077824, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/a0f47cc4ed_M-n151-k12-15__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/851d3b64b04c9247_M-n200-k17-12.txt --out /home/moco/code/dass/e1_heldout_v1/collect/851d3b64b04c9247_M-n200-k17-12 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/851d3b64b04c9247_M-n200-k17-12.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/M-n200-k17-12.sppcc', 'instance_sha256': '851d3b64b04c9247527d428db8bcd2a03134bc719254d023e80c6046bc1a550a', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.005695136, 'wall_ns': 5695136, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/912d1f4a5e_M-n200-k17-12__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/8be8b80a4f345025_P-n50-k10-24.txt --out /home/moco/code/dass/e1_heldout_v1/collect/8be8b80a4f345025_P-n50-k10-24 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/8be8b80a4f345025_P-n50-k10-24.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/P-n50-k10-24.sppcc', 'instance_sha256': '8be8b80a4f345025c52b623f35f147917216a6c4958da4bc744a604d2427f677', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.002751715, 'wall_ns': 2751715, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/b4e36598d3_P-n50-k10-24__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/4621af65051e3e88_P-n50-k7-92.txt --out /home/moco/code/dass/e1_heldout_v1/collect/4621af65051e3e88_P-n50-k7-92 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/4621af65051e3e88_P-n50-k7-92.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/P-n50-k7-92.sppcc', 'instance_sha256': '4621af65051e3e889e235b062ff417988b49abd54f00fe8fb976861df562abc2', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.002621439, 'wall_ns': 2621439, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/b79a996e0a_P-n50-k7-92__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/3ba4244ed8d56e2d_P-n50-k8-19.txt --out /home/moco/code/dass/e1_heldout_v1/collect/3ba4244ed8d56e2d_P-n50-k8-19 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/3ba4244ed8d56e2d_P-n50-k8-19.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/P-n50-k8-19.sppcc', 'instance_sha256': '3ba4244ed8d56e2d0fbd9c98d26e6207ee4991eecab520c58928b9be54b409ca', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.00273967, 'wall_ns': 2739670, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/9f9eefefda_P-n50-k8-19__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/672c366d147dee43_P-n55-k7-116.txt --out /home/moco/code/dass/e1_heldout_v1/collect/672c366d147dee43_P-n55-k7-116 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/672c366d147dee43_P-n55-k7-116.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/P-n55-k7-116.sppcc', 'instance_sha256': '672c366d147dee43706536c1cb5b4aa9fff3cd6e2e37d85121736520488a50dc', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.003137248, 'wall_ns': 3137248, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/773f31a8a7_P-n55-k7-116__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/46ca543ffe85b572_P-n60-k10-24.txt --out /home/moco/code/dass/e1_heldout_v1/collect/46ca543ffe85b572_P-n60-k10-24 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/46ca543ffe85b572_P-n60-k10-24.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/P-n60-k10-24.sppcc', 'instance_sha256': '46ca543ffe85b572ebf2cfbf8182cd6b4e3d9f88f852344c9074c75297a9dad1', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.002815545, 'wall_ns': 2815545, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/7264ea901c_P-n60-k10-24__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/3dfcbf2f704f5a52_P-n60-k15-8.txt --out /home/moco/code/dass/e1_heldout_v1/collect/3dfcbf2f704f5a52_P-n60-k15-8 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/3dfcbf2f704f5a52_P-n60-k15-8.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/P-n60-k15-8.sppcc', 'instance_sha256': '3dfcbf2f704f5a52b415485ea726d3e2d39b0e85860bd59af79a91a2123e8034', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.002759635, 'wall_ns': 2759635, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/f6775bd2c2_P-n60-k15-8__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/b6d4b6988e136964_P-n70-k10-12.txt --out /home/moco/code/dass/e1_heldout_v1/collect/b6d4b6988e136964_P-n70-k10-12 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/b6d4b6988e136964_P-n70-k10-12.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/P-n70-k10-12.sppcc', 'instance_sha256': 'b6d4b6988e136964d0341f30ec918d41bd30e446d6472d0ef3d84a793ef5ea63', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.003378854, 'wall_ns': 3378854, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/eac660aeeb_P-n70-k10-12__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+COMMAND: /home/moco/anaconda3/envs/erldde/bin/python3 /home/moco/code/dass/voc_ls_e1/e1_run.py collect --repo /home/moco/code/dass/pathwyse --instances-file /home/moco/code/dass/e1_heldout_v1/instance_lists/009c3df06877fe16_P-n76-k4-41.txt --out /home/moco/code/dass/e1_heldout_v1/collect/009c3df06877fe16_P-n76-k4-41 --profiles p0_r,p1_s --skip-build --timeout 600
+FAILED rc=1: /home/moco/code/dass/e1_heldout_v1/driver_logs/collect_train/009c3df06877fe16_P-n76-k4-41.log
+Traceback (most recent call last):
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 279, in <module>
+    if __name__=="__main__":main()
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 238, in main
+    row=execute_one(root,out,exe,configs[profile],inst,env,"baseline",i+1,order,"collect",args.timeout,trace)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 159, in execute_one
+    validate_run(row,policy)
+  File "/home/moco/code/dass/voc_ls_e1/e1_run.py", line 132, in validate_run
+    raise RuntimeError(f"Solver failed: {row}")
+RuntimeError: Solver failed: {'instance': 'instances/spprclib/P-n76-k4-41.sppcc', 'instance_sha256': '009c3df06877fe1618786faebe27ab84982a7bd26973b999ed398ba21770160f', 'profile': 'p0_r', 'round': 1, 'order': 1, 'policy': 'baseline', 'status': None, 'objective': None, 'tour': None, 'consumption': None, 'wall_s': 0.003047481, 'wall_ns': 3047481, 'solver_s': None, 'candidate_calls': 0, 'scored_labels': 0, 'selector_ns': 0, 'trace_rows': 0, 'reordered_choices': 0, 'dssr_iterations': 0, 'exit_code': 0, 'timeout': False, 'log': 'logs/3aef2aa2fc_P-n76-k4-41__collect__r001__1__p0_r__baseline.log', 'stats': {'policy': 'baseline', 'candidate_calls': '0', 'scored_labels': '0', 'selector_ns': '0', 'trace_rows': '0', 'reordered_choices': '0', 'iterations': '0', 'top_k': '8'}}
+PHASE STATUS {"phase": "collect", "subset": "train", "total_expected": 25, "valid_completed": 0, "new_attempts": 25, "skipped": 0, "params": {"profiles": ["p0_r", "p1_s"], "timeout": 600, "repeats": 10, "warmups": 2, "top_k": 8, "seed": 20261115}}
+FAILED/INCOMPLETE [
+  {
+    "path": "instances/spprclib/A-n54-k7-149.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/4f175f9660cee6a1_A-n54-k7-149"
+  },
+  {
+    "path": "instances/spprclib/A-n62-k8-99.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/82136fc9d1a87803_A-n62-k8-99"
+  },
+  {
+    "path": "instances/spprclib/A-n63-k9-157.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/e80a4831383064dc_A-n63-k9-157"
+  },
+  {
+    "path": "instances/spprclib/A-n65-k9-10.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/86c341ad1bbc8767_A-n65-k9-10"
+  },
+  {
+    "path": "instances/spprclib/A-n69-k9-42.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/f8de772fa0708414_A-n69-k9-42"
+  },
+  {
+    "path": "instances/spprclib/B-n57-k7-20.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/872e90ff583c5b99_B-n57-k7-20"
+  },
+  {
+    "path": "instances/spprclib/B-n66-k9-50.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/2a4bf3178529995b_B-n66-k9-50"
+  },
+  {
+    "path": "instances/spprclib/B-n68-k9-65.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/a46322319cc855f2_B-n68-k9-65"
+  },
+  {
+    "path": "instances/spprclib/E-n101-k14-158.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/9c1466e6d0da0328_E-n101-k14-158"
+  },
+  {
+    "path": "instances/spprclib/E-n76-k10-72.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/5de22f610813b674_E-n76-k10-72"
+  },
+  {
+    "path": "instances/spprclib/E-n76-k14-102.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/317cb5efafd41715_E-n76-k14-102"
+  },
+  {
+    "path": "instances/spprclib/E-n76-k7-44.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/155f3aabda41f8b5_E-n76-k7-44"
+  },
+  {
+    "path": "instances/spprclib/G-n262-k25-316.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/d4701001ad6e93c3_G-n262-k25-316"
+  },
+  {
+    "path": "instances/spprclib/M-n101-k10-97.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/4e33b52578176e5f_M-n101-k10-97"
+  },
+  {
+    "path": "instances/spprclib/M-n121-k7-260.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/49510b512bc4d970_M-n121-k7-260"
+  },
+  {
+    "path": "instances/spprclib/M-n151-k12-15.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/acb945b9e14899af_M-n151-k12-15"
+  },
+  {
+    "path": "instances/spprclib/M-n200-k17-12.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/851d3b64b04c9247_M-n200-k17-12"
+  },
+  {
+    "path": "instances/spprclib/P-n50-k10-24.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/8be8b80a4f345025_P-n50-k10-24"
+  },
+  {
+    "path": "instances/spprclib/P-n50-k7-92.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/4621af65051e3e88_P-n50-k7-92"
+  },
+  {
+    "path": "instances/spprclib/P-n50-k8-19.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/3ba4244ed8d56e2d_P-n50-k8-19"
+  },
+  {
+    "path": "instances/spprclib/P-n55-k7-116.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/672c366d147dee43_P-n55-k7-116"
+  },
+  {
+    "path": "instances/spprclib/P-n60-k10-24.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/46ca543ffe85b572_P-n60-k10-24"
+  },
+  {
+    "path": "instances/spprclib/P-n60-k15-8.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/3dfcbf2f704f5a52_P-n60-k15-8"
+  },
+  {
+    "path": "instances/spprclib/P-n70-k10-12.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/b6d4b6988e136964_P-n70-k10-12"
+  },
+  {
+    "path": "instances/spprclib/P-n76-k4-41.sppcc",
+    "reason": "rc=1,validation=False",
+    "location": "/home/moco/code/dass/e1_heldout_v1/collect/009c3df06877fe16_P-n76-k4-41"
+  }
+]
+INCOMPLETE: summary is not a publishable complete-data analysis
